@@ -150,4 +150,4 @@ private double calculateDistance(int[] a, int[] b) {
 今天分享一遍自己写的 JavaScript 中的常识性问题，当然第一次看到还是蛮新奇的，感觉和其他自己目前所知道的语言比较，还是略微不同，现在还不是特别清楚这些不一样会带来什么样的优势和不足，但相信随着自己积累的增多，会有一些和之前不一样的感悟.
 <br>
 
-[关于 JavaScript 函数传参的那点事](./关于JavaScript函数传参的那点事)
+[关于 JavaScript 函数传参的那点事](./关于JavaScript函数传参的那点事.md)

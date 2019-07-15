@@ -1,6 +1,6 @@
 ## Algorithm
 
-[LeetCode 312. Burst Balloons 思路分析总结](./LeetCode312BurstBalloons思路分析总结)
+[LeetCode 312. Burst Balloons 思路分析总结](./LeetCode312BurstBalloons思路分析总结.md)
 
 <br>
 
@@ -83,4 +83,4 @@
 这次写的是自己接触编程不到 3 年来，所看到的一些东西，希望对你们有所帮助。
 <br>
 
-[谈谈学习编程过程中的意识误区](./谈谈学习编程过程中的意识误区)
+[谈谈学习编程过程中的意识误区](./谈谈学习编程过程中的意识误区.md)

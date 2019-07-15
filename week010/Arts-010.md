@@ -213,4 +213,4 @@ private boolean helper(TrieNode cur, char[] word, int count, int index) {
 ## Share
 这已经是第十次 ARTS 了，这次做一个阶段性地总结吧，谈谈收获，谈谈计划，再谈谈理想。
 
-[ARTS 阶段性总结](./ARTS阶段性总结)
+[ARTS 阶段性总结](./ARTS阶段性总结.md)
