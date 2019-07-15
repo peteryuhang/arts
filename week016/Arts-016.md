@@ -131,4 +131,4 @@ app.all('*', function(req, res, next) {
 ## Share
 JavaScript 中的对象，这周讲讲继承和多态的实现
 
-[JavaScript 中的对象（二）- 继承与多态](./JavaScript 中的对象(二)-继承与多态.md)
+[JavaScript 中的对象（二）- 继承与多态](./JavaScript中的对象(二)-继承与多态.md)
