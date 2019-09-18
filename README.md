@@ -1,5 +1,5 @@
 # arts
-> What is ARTS？
+> What is ARTS？<br>
 Algorithm：At least finishing one leetcode problem each week<br>
 Review：At least review one technical article each week<br>
 Tip：At least study one technical skill each week<br>
