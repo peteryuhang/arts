@@ -1,9 +1,9 @@
 # arts
-> ARTS是什么？
-Algorithm：每周至少做一个leetcode的算法题；
-Review：阅读并点评至少一篇英文技术文章；
-Tip：学习至少一个技术技巧；
-Share：分享一篇有观点和思考的技术文章。
+> What is ARTS？
+Algorithm：At least finishing one leetcode problem each week<br>
+Review：At least review one technical article each week<br>
+Tip：At least study one technical skill each week<br>
+Share：At least write one thoughtful article each week<br>
 
 ### [Week 17](./week017/Arts-017.md)
 
