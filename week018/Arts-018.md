@@ -123,5 +123,5 @@ public int longestWPI(int[] hours) {
 ## Share
 看了高程 3 中函数表达式一章，深刻体会了函数作为 JavaScript 的一等公民的实际用处，在这里写写总结，希望以后回过头来看，体会会更深。
 
-[JavaScript 中的闭包函数](./JavaScript中的闭包函数)
+[JavaScript 中的闭包函数](./JavaScript中的闭包函数.md)
 

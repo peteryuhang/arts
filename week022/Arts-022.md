@@ -117,4 +117,4 @@ expirationTime = responseTime + freshnessLifetime - currentAge
 ## Share
 这周刷 LeetCode 上面二叉树问题的一些总结和思考
 
-[LeetCode 二叉树问题总结](./LeetCode二叉树问题总结)
+[LeetCode 二叉树问题总结](./LeetCode二叉树问题总结.md)

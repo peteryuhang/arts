@@ -146,5 +146,5 @@ public int numBusesToDestination(int[][] routes, int S, int T) {
 ## Share
 写 ARTS 已经半年了，这次还是来聊聊算法吧。看看简单的算法题 - TwoSum 还可以怎么玩？
 
-[TwoSum 相关问题思路总结](./TwoSum相关问题思路总结)
+[TwoSum 相关问题思路总结](./TwoSum相关问题思路总结.md)
 
