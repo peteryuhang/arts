@@ -5,6 +5,116 @@ Review：At least review one technical article each week<br>
 Tip：At least study one technical skill each week<br>
 Share：At least write one thoughtful article each week<br>
 
+### [Week 26](./week026/Arts-026.md)
+
+Algorithm：LeetCode 815. Bus Routes
+
+Review：medium 上面一篇讲解决问题一般步骤的文章
+
+Tip：JavaScript 中 console 除 console.log 的其他用法
+
+Share：关于 TwoSum，还可以怎么玩？
+
+<br>
+
+### [Week 25](./week025/Arts-025.md)
+
+Algorithm：LeetCode 1178. Number of Valid Words for Each Puzzle
+
+Review：一篇讲述如何专注、高效工作的文章
+
+Tip：理解了几个编程语言的概念以及几个和垃圾回收相关的算法
+
+Share：分享了两篇测试的文章，给出了自己的一些看法
+
+<br>
+
+### [Week 24](./week024/Arts-024.md)
+
+Algorithm：LeetCode 864. Shortest Path to Get All Keys
+
+Review：Medium 上面一篇关于 JavaScrip async/await 的文章
+
+Tip：JavaScript 中的上下文环境变量以及 this
+
+Share：在 medium 上面发布了一篇关于 JavaScript 的this 的文章
+
+<br>
+
+### [Week 23](./week023/Arts-023.md)
+
+Algorithm：LeetCode 297. Serialize and Deserialize Binary Tree
+
+Review：Medium 上面一篇关于设计产品理念的文章
+
+Tip：JavaScript 中的变量提升
+
+Share：广度优先搜索的一些总结和思考
+
+<br>
+
+### [Week 22](./week022/Arts-022.md)
+
+Algorithm：LeetCode 124. Binary Tree Maximum Path Sum
+
+Review：MDN 上面一篇介绍缓存的文章
+
+Tip：用户在导航栏输入后浏览器的内部反应；对 TCP 3 次握手的一些理解
+
+Share：对 LeetCode 二叉树问题的一些总结和思考
+
+<br>
+
+### [Week 21](./week021/Arts-021.md)
+
+Algorithm：LeetCode 25. Remove Nodes in K-Group
+
+Review：Medium 上一篇介绍 JS ES6 变化的文章
+
+Tip：网络通信中的 IP 表示方法，以及子网掩码的概念
+
+Share：对二分查找算法进行了总结
+
+<br>
+
+### [Week 20](./week020/Arts-020.md)
+
+Algorithm：LeetCode 4. Median of Two Sorted Array
+
+Review：Medium 上三篇关于日记的文章
+
+Tip：SQL 中的聚类函数
+
+Share：总结这周学的前端 React 的一些知识
+
+<br>
+
+### [Week 19](./week019/Arts-019.md)
+
+Algorithm：LeetCode 10. Regular Expression Matching
+
+Review：Medium 上的一篇关于如何阅读书籍的文章
+
+Tip：Http Cookie 机制
+
+Share：分享一篇讲浏览器如何运作的文章
+
+<br>
+
+### [Week 18](./week018/Arts-018.md)
+
+Algorithm：PE 24. Lexicographic Permutations;
+
+LeetCode 1124. Longest Well-Performing Interval
+
+Review：Medium 上的一篇关于 JWT 的文章
+
+Tip：记录一下一个学习 Node 的不错的方法和相应的资源
+
+Share：总结一下关于 JavaScript 中的闭包函数
+
+<br>
+
 ### [Week 17](./week017/Arts-017.md)
 
 Algorithm：LeetCode 164. Maximum Gap
