@@ -5,6 +5,20 @@ Review：At least review one technical article each week<br>
 Tip：At least study one technical skill each week<br>
 Share：At least write one thoughtful article each week<br>
 
+<br>
+
+### [Week 27](./week027/Arts-027.md)
+
+Algorithm：LeetCode 253. Meeting Rooms II
+
+Review：一篇描述 HTTPS 相关内容的漫画
+
+Tip：JavaScript 中的微任务处理机制
+
+Share：关于加密算法的一些分享
+
+<br>
+
 ### [Week 26](./week026/Arts-026.md)
 
 Algorithm：LeetCode 815. Bus Routes
