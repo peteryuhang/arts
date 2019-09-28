@@ -7,6 +7,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 28](./week028/Arts-028.md)
+
+Algorithm：LeetCode 287. Find the Duplicate Number
+
+Review：关于写好英文文章的小建议
+
+Tip：pull，push 模式 以及 JavaScript 中的 promise
+
+Share：关于并查集的一些分享
+
+<br>
+
 ### [Week 27](./week027/Arts-027.md)
 
 Algorithm：LeetCode 253. Meeting Rooms II
