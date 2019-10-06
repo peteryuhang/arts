@@ -7,6 +7,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 29](./week029/Arts-029.md)
+
+Algorithm：LeetCode 145. Binary Tree Postorder Traversal
+
+Review：正确使用 await/async 的策略
+
+Tip：MVC 的一些基本概念
+
+Share：关于字典树的一些分享
+
+<br>
+
 ### [Week 28](./week028/Arts-028.md)
 
 Algorithm：LeetCode 287. Find the Duplicate Number
