@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 31](./week031/Arts-031.md)
+
+Algorithm：LC 75. Sort Colors
+
+Review：程序员易犯的四大错误
+
+Tip：linux 下 screen 命令的常见用法
+
+Share：One Way To Know Yourself better
+
+<br>
+
+
 ### [Week 30](./week030/Arts-030.md)
 
 Algorithm：LeetCode 437. Path Sum III
@@ -18,6 +31,7 @@ Tip：AOP、IoC、DL、DI、等概念
 Share：关于看待问题的一些分享
 
 <br>
+
 
 ### [Week 29](./week029/Arts-029.md)
 
