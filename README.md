@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 32](./week032/Arts-032.md)
+
+Algorithm：LC 460. LFU Cache
+
+Review：JavaScript 一些能够让代码变简洁的技巧
+
+Tip：分享两款使用工具
+
+Share：谈谈面试
+
+<br>
+
+
 ### [Week 31](./week031/Arts-031.md)
 
 Algorithm：LC 75. Sort Colors
