@@ -13,7 +13,7 @@ Algorithm：LC 460. LFU Cache
 
 Review：JavaScript 一些能够让代码变简洁的技巧
 
-Tip：分享两款使用工具
+Tip：分享两款工具
 
 Share：谈谈面试
 
