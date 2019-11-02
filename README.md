@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 33](./week033/Arts-033.md)
+
+Algorithm：LC 218. The Skyline Problem
+
+Review：一篇讲述面试中如何问问题的文章
+
+Tip：pm2 工具
+
+Share：动态规划原理解析
+
+<br>
+
+
 ### [Week 32](./week032/Arts-032.md)
 
 Algorithm：LC 460. LFU Cache
