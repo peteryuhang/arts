@@ -7,6 +7,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 34](./week034/Arts-034.md)
+
+Algorithm：LC 84. Largest Rectangle in Histogram
+
+Review：一篇介绍 《clean code》的文章
+
+Tip：缓存中的 cache-aside 模式
+
+Share：矩阵类动态规划分析
+
+<br>
+
 ### [Week 33](./week033/Arts-033.md)
 
 Algorithm：LC 218. The Skyline Problem
