@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 35](./week035/Arts-035.md)
+
+Algorithm：LC 679. 24 Game
+
+Review：一篇短文
+
+Tip：JMeter，apache 开源的压力测试软件
+
+Share：系列类动态规划问题分析
+
+<br>
+
+
 ### [Week 34](./week034/Arts-034.md)
 
 Algorithm：LC 84. Largest Rectangle in Histogram
