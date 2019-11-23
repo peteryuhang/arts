@@ -7,6 +7,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 36](./week036/Arts-036.md)
+
+Algorithm：LC 128. Longest Consecutive Sequence
+
+Review：一篇讲述如何理解需求，并制定计划的文章
+
+Tip：Node JS 相关的两个包 - winton、mysql
+
+Share：字符匹配类动态规划问题分析
+
+<br>
+
 ### [Week 35](./week035/Arts-035.md)
 
 Algorithm：LC 679. 24 Game
@@ -15,7 +27,7 @@ Review：一篇短文
 
 Tip：JMeter，apache 开源的压力测试软件
 
-Share：系列类动态规划问题分析
+Share：序列类动态规划问题分析
 
 <br>
 
