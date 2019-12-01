@@ -7,13 +7,25 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 37](./week037/Arts-037.md)
+
+Algorithm：LC 32. Longest Valid Parentheses
+
+Review & Tip：一篇讲述如何在 npm 上面发布 package 的文章
+
+Share：区间类动态规划问题分析
+
+
+<br>
+
+
 ### [Week 36](./week036/Arts-036.md)
 
 Algorithm：LC 128. Longest Consecutive Sequence
 
 Review：一篇讲述如何理解需求，并制定计划的文章
 
-Tip：Node JS 相关的两个包 - winton、mysql
+Tip：Node JS 相关的两个包 - winston、mysql
 
 Share：字符匹配类动态规划问题分析
 
