@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 38](./week038/Arts-038.md)
+
+Algorithm：LC 410. Split Array Largest Sum
+
+Review：medium 上关于 “专注” 的一篇文章
+
+Tip：记录一下 JS 中的 forEach 的使用容易犯的错误
+
+Share：分享皓叔的一篇关于自我认识的文章
+
+
+<br>
+
 ### [Week 37](./week037/Arts-037.md)
 
 Algorithm：LC 32. Longest Valid Parentheses
