@@ -7,6 +7,20 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 39](./week039/Arts-039.md)
+
+Algorithm：LC 78. Subsets
+
+Review：medium 上一篇讲述 Git Model 选择的文章
+
+Tip：记录一下 Git 中的 cherry-pick 指令
+
+Share：背包类动态规划
+
+
+
+<br>
+
 ### [Week 38](./week038/Arts-038.md)
 
 Algorithm：LC 410. Split Array Largest Sum
