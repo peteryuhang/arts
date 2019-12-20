@@ -1,0 +1,1545 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>位运算中异或的常见用法总结 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../week002/Arts-002.html" />
+    
+    
+    <link rel="prev" href="Arts-001.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="Arts-001.html">
+            
+                <a href="Arts-001.html">
+            
+                    
+                    Week 1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.2.1" data-path="位运算中异或的常见用法总结.html">
+            
+                <a href="位运算中异或的常见用法总结.html">
+            
+                    
+                    位运算中异或的常见用法总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../week002/Arts-002.html">
+            
+                <a href="../week002/Arts-002.html">
+            
+                    
+                    Week 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../week002/关于JavaScript函数传参的那点事.html">
+            
+                <a href="../week002/关于JavaScript函数传参的那点事.html">
+            
+                    
+                    关于JavaScript函数传参的那点事
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../week003/Arts-003.html">
+            
+                <a href="../week003/Arts-003.html">
+            
+                    
+                    Week 3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../week003/常见背包问题解法分析.html">
+            
+                <a href="../week003/常见背包问题解法分析.html">
+            
+                    
+                    常见背包问题解法分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../week004/Arts-004.html">
+            
+                <a href="../week004/Arts-004.html">
+            
+                    
+                    Week 4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../week004/写项目代码之前必须要做的事.html">
+            
+                <a href="../week004/写项目代码之前必须要做的事.html">
+            
+                    
+                    写项目代码之前必须要做的事
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../week005/Arts-005.html">
+            
+                <a href="../week005/Arts-005.html">
+            
+                    
+                    Week 5
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../week005/利用位运算解决N皇后问题.html">
+            
+                <a href="../week005/利用位运算解决N皇后问题.html">
+            
+                    
+                    利用位运算解决N皇后问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../week005/关于面试，我这样看.html">
+            
+                <a href="../week005/关于面试，我这样看.html">
+            
+                    
+                    关于面试，我这样看
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../week006/Arts-006.html">
+            
+                <a href="../week006/Arts-006.html">
+            
+                    
+                    Week 6
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../week006/股票问题汇总.html">
+            
+                <a href="../week006/股票问题汇总.html">
+            
+                    
+                    股票问题汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="../week007/Arts-007.html">
+            
+                <a href="../week007/Arts-007.html">
+            
+                    
+                    Week 7
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="../week007/LeetCode滑动窗口（SlidingWindow）类问题总结.html">
+            
+                <a href="../week007/LeetCode滑动窗口（SlidingWindow）类问题总结.html">
+            
+                    
+                    LeetCode滑动窗口（SlidingWindow）类问题总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../week008/Arts-008.html">
+            
+                <a href="../week008/Arts-008.html">
+            
+                    
+                    Week 8
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../week008/LeetCode312BurstBalloons思路分析总结.html">
+            
+                <a href="../week008/LeetCode312BurstBalloons思路分析总结.html">
+            
+                    
+                    LeetCode312BurstBalloons思路分析总结
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1.1" data-path="../week008/谈谈学习编程过程中的意识误区.html">
+            
+                <a href="../week008/谈谈学习编程过程中的意识误区.html">
+            
+                    
+                    谈谈学习编程过程中的意识误区
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../week009/Arts-009.html">
+            
+                <a href="../week009/Arts-009.html">
+            
+                    
+                    Week 9
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../week009/从简单二叉树问题重新来看深度优先搜索.html">
+            
+                <a href="../week009/从简单二叉树问题重新来看深度优先搜索.html">
+            
+                    
+                    从简单二叉树问题重新来看深度优先搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../week010/Arts-010.html">
+            
+                <a href="../week010/Arts-010.html">
+            
+                    
+                    Week 10
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../week010/ARTS阶段性总结.html">
+            
+                <a href="../week010/ARTS阶段性总结.html">
+            
+                    
+                    ARTS阶段性总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../week011/Arts-011.html">
+            
+                <a href="../week011/Arts-011.html">
+            
+                    
+                    Week 11
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../week011/程序员需要了解的逻辑学思想.html">
+            
+                <a href="../week011/程序员需要了解的逻辑学思想.html">
+            
+                    
+                    程序员需要了解的逻辑学思想
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../week012/Arts-012.html">
+            
+                <a href="../week012/Arts-012.html">
+            
+                    
+                    Week 12
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../week012/学习中的典型思维误区总结.html">
+            
+                <a href="../week012/学习中的典型思维误区总结.html">
+            
+                    
+                    学习中的典型思维误区总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../week013/Arts-013.html">
+            
+                <a href="../week013/Arts-013.html">
+            
+                    
+                    Week 13
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../week013/拓扑排序原理和习题分析.html">
+            
+                <a href="../week013/拓扑排序原理和习题分析.html">
+            
+                    
+                    拓扑排序原理和习题分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../week014/Arts-014.html">
+            
+                <a href="../week014/Arts-014.html">
+            
+                    
+                    Week 14
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../week014/布隆过滤器原理和应用分析.html">
+            
+                <a href="../week014/布隆过滤器原理和应用分析.html">
+            
+                    
+                    布隆过滤器原理和应用分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../week015/Arts-015.html">
+            
+                <a href="../week015/Arts-015.html">
+            
+                    
+                    Week 15
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.1" data-path="../week015/JavaScript中的对象（一）-对象的概念、模型、以及创建.html">
+            
+                <a href="../week015/JavaScript中的对象（一）-对象的概念、模型、以及创建.html">
+            
+                    
+                    JavaScript中的对象（一）-对象的概念、模型、以及创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../week016/Arts-016.html">
+            
+                <a href="../week016/Arts-016.html">
+            
+                    
+                    Week 16
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.17.1" data-path="../week016/JavaScript中的对象(二">
+            
+                <span>
+            
+                    
+                    JavaScript中的对象(二)-继承与多态.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../week017/Arts-017.html">
+            
+                <a href="../week017/Arts-017.html">
+            
+                    
+                    Week 17
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.18.1" data-path="../week017/关于质数你所应该知道的.html">
+            
+                <a href="../week017/关于质数你所应该知道的.html">
+            
+                    
+                    关于质数你所应该知道的
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../week018/Arts-018.html">
+            
+                <a href="../week018/Arts-018.html">
+            
+                    
+                    Week 18
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.19.1" data-path="../week018/JavaScript中的闭包函数.html">
+            
+                <a href="../week018/JavaScript中的闭包函数.html">
+            
+                    
+                    JavaScript中的闭包函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../week019/Arts-019.html">
+            
+                <a href="../week019/Arts-019.html">
+            
+                    
+                    Week 19
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.20.1" data-path="../week019/深度解析LC10.RegularExpressionMatching.html">
+            
+                <a href="../week019/深度解析LC10.RegularExpressionMatching.html">
+            
+                    
+                    深度解析LC10.RegularExpressionMatching
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../week020/Arts-020.html">
+            
+                <a href="../week020/Arts-020.html">
+            
+                    
+                    Week 20
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.21.1" data-path="../week020/React初探.html">
+            
+                <a href="../week020/React初探.html">
+            
+                    
+                    React初探
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="../week021/Arts-021.html">
+            
+                <a href="../week021/Arts-021.html">
+            
+                    
+                    Week 21
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.22.1" data-path="../week021/二分查找模版、题型全面解析.html">
+            
+                <a href="../week021/二分查找模版、题型全面解析.html">
+            
+                    
+                    二分查找模版、题型全面解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="../week022/Arts-022.html">
+            
+                <a href="../week022/Arts-022.html">
+            
+                    
+                    Week 22
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.23.1" data-path="../week022/LeetCode二叉树问题总结.html">
+            
+                <a href="../week022/LeetCode二叉树问题总结.html">
+            
+                    
+                    LeetCode二叉树问题总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="../week023/Arts-023.html">
+            
+                <a href="../week023/Arts-023.html">
+            
+                    
+                    Week 23
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.24.1" data-path="../week023/广度优先搜索（BFS）总结分析.html">
+            
+                <a href="../week023/广度优先搜索（BFS）总结分析.html">
+            
+                    
+                    广度优先搜索（BFS）总结分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="../week024/Arts-024.html">
+            
+                <a href="../week024/Arts-024.html">
+            
+                    
+                    Week 24
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="../week025/Arts-025.html">
+            
+                <a href="../week025/Arts-025.html">
+            
+                    
+                    Week 25
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="../week026/Arts-026.html">
+            
+                <a href="../week026/Arts-026.html">
+            
+                    
+                    Week 26
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.27.1" data-path="../week026/TwoSum相关问题思路总结.html">
+            
+                <a href="../week026/TwoSum相关问题思路总结.html">
+            
+                    
+                    TwoSum相关问题思路总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="../week027/Arts-027.html">
+            
+                <a href="../week027/Arts-027.html">
+            
+                    
+                    Week 27
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="../week028/Arts-028.html">
+            
+                <a href="../week028/Arts-028.html">
+            
+                    
+                    Week 28
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.29.1" data-path="../week028/并查集概念及用法分析.html">
+            
+                <a href="../week028/并查集概念及用法分析.html">
+            
+                    
+                    并查集概念及用法分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="../week029/Arts-029.html">
+            
+                <a href="../week029/Arts-029.html">
+            
+                    
+                    Week 29
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.30.1" data-path="../week029/字典树概念与题型解析.html">
+            
+                <a href="../week029/字典树概念与题型解析.html">
+            
+                    
+                    字典树概念与题型解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="../week030/Arts-030.html">
+            
+                <a href="../week030/Arts-030.html">
+            
+                    
+                    Week 30
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.31.1" data-path="../week030/应该如何看待问题.html">
+            
+                <a href="../week030/应该如何看待问题.html">
+            
+                    
+                    应该如何看待问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="../week031/Arts-031.html">
+            
+                <a href="../week031/Arts-031.html">
+            
+                    
+                    Week 31
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="../week032/Arts-032.html">
+            
+                <a href="../week032/Arts-032.html">
+            
+                    
+                    Week 32
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.33.1" data-path="../week032/谈谈面试.html">
+            
+                <a href="../week032/谈谈面试.html">
+            
+                    
+                    谈谈面试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="../week033/Arts-033.html">
+            
+                <a href="../week033/Arts-033.html">
+            
+                    
+                    Week 33
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.34.1" data-path="../week033/动态规划之初识动规.html">
+            
+                <a href="../week033/动态规划之初识动规.html">
+            
+                    
+                    动态规划之初识动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="../week034/Arts-034.html">
+            
+                <a href="../week034/Arts-034.html">
+            
+                    
+                    Week 34
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.35.1" data-path="../week034/动态规划之矩阵类动规.html">
+            
+                <a href="../week034/动态规划之矩阵类动规.html">
+            
+                    
+                    动态规划之矩阵类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="../week035/Arts-035.html">
+            
+                <a href="../week035/Arts-035.html">
+            
+                    
+                    Week 35
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.36.1" data-path="../week035/动态规划之序列类动规.html">
+            
+                <a href="../week035/动态规划之序列类动规.html">
+            
+                    
+                    动态规划之序列类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="../week036/Arts-036.html">
+            
+                <a href="../week036/Arts-036.html">
+            
+                    
+                    Week 36
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.37.1" data-path="../week036/动态规划之字符匹配类动规.html">
+            
+                <a href="../week036/动态规划之字符匹配类动规.html">
+            
+                    
+                    动态规划之字符匹配类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="../week037/Arts-037.html">
+            
+                <a href="../week037/Arts-037.html">
+            
+                    
+                    Week 37
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.38.1" data-path="../week037/动态规划之区间类动规.html">
+            
+                <a href="../week037/动态规划之区间类动规.html">
+            
+                    
+                    动态规划之区间类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="../week038/Arts-038.html">
+            
+                <a href="../week038/Arts-038.html">
+            
+                    
+                    Week 38
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="../week039/Arts-039.html">
+            
+                <a href="../week039/Arts-039.html">
+            
+                    
+                    Week 39
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.40.1" data-path="../week039/动态规划之背包类动规.html">
+            
+                <a href="../week039/动态规划之背包类动规.html">
+            
+                    
+                    动态规划之背包类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >位运算中异或的常见用法总结</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>&#x5F02;&#x6216;(^) &#x8FD9;&#x4E2A;&#x4F4D;&#x64CD;&#x4F5C;&#x8FD0;&#x7B97;&#x7B26;&#x76F8;&#x4FE1;&#x5927;&#x5BB6;&#x4E00;&#x5B9A;&#x90FD;&#x4E0D;&#x964C;&#x751F;&#xFF0C;&#x8FD9;&#x4E2A;&#x8FD0;&#x7B97;&#x7B26;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x89E3;&#x51B3;&#x5F88;&#x591A;&#x666E;&#x901A;&#x7B97;&#x6CD5;&#x89E3;&#x51B3;&#x4E0D;&#x4E86;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x800C;&#x4E14;&#x4F4D;&#x8FD0;&#x7B97;&#x662F;&#x76F4;&#x63A5;&#x5BF9;&#x4E8C;&#x8FDB;&#x5236;&#x7801;&#x505A;&#x8FD0;&#x7B97;&#xFF0C;&#x76F8;&#x5BF9;&#x666E;&#x901A;&#x7684;&#x52A0;&#x51CF;&#x4E58;&#x9664;&#x8FD0;&#x7B97;&#x7B26;&#x6765;&#x8BF4;&#x7684;&#x8BDD;&#x66F4;&#x52A0;&#x7684;&#x9AD8;&#x6548;&#xFF0C;&#x6211;&#x4EEC;&#x501F;&#x7740;&#x9898;&#x76EE;&#x4E00;&#x8D77;&#x6765;&#x770B;&#x770B;&#xFF1A;</p>
+<h2 id="problem-1">Problem 1</h2>
+<blockquote>
+<p>&#x5BF9;&#x4E24;&#x4E2A;&#x8F93;&#x5165;&#x53C2;&#x6570;&#x505A;&#x52A0;&#x6CD5;&#x8FD0;&#x7B97;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x80FD;&#x4F7F;&#x7528; &#x201C;+&#x201D; &#x8FD0;&#x7B97;&#x7B26;
+<br></p>
+</blockquote>
+<p><strong>&#x89E3;&#x6CD5;&#x601D;&#x8DEF;&#xFF1A;</strong><br>
+&#x770B;&#x5230;&#x8FD9;&#x6837;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x80FD;&#x60F3;&#x5230;&#x7684;&#x53EA;&#x6709;&#x4F4D;&#x8FD0;&#x7B97;&#xFF0C;&#x95EE;&#x9898;&#x662F;&#x600E;&#x4E48;&#x7B97;&#xFF1F;&#x76F8;&#x4FE1;&#x5927;&#x5BB6;&#x5C0F;&#x5B66;&#x521A;&#x5B66;&#x4E60;&#x52A0;&#x6CD5;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5BF9;&#x4E8E;&#x4E00;&#x4E0B;&#x5B50;&#x4E0D;&#x80FD;&#x5F97;&#x5230;&#x7B54;&#x6848;&#x7684;&#x9898;&#xFF0C;&#x80AF;&#x5B9A;&#x4F1A;&#x5728;&#x8349;&#x7A3F;&#x7EB8;&#x4E0A;&#x5217;&#x7AD6;&#x5F0F;&#xFF0C;&#x4ECE;&#x53F3;&#x5411;&#x5DE6;&#x7B97;&#xFF0C;&#x540C;&#x4E00;&#x5217;&#x5BF9;&#x4E0B;&#x6765;&#x7684;&#x6570;&#x5B57;&#x76F8;&#x52A0;&#x5982;&#x679C;&#x8D85;&#x8FC7; 10&#xFF0C;&#x90A3;&#x4E48;&#x80AF;&#x5B9A;&#x8981;&#x5728;&#x4E0B;&#x9762;&#x5199;&#x4E24;&#x4E2A;&#x6570;&#x5B57;&#x76F8;&#x52A0;&#x540E;&#x7684;&#x4E2A;&#x4F4D;&#x6570;&#xFF0C;&#x7136;&#x540E;&#x5F80;&#x524D;&#x8FDB;&#x4E00;&#x4F4D;&#xFF0C;&#x4E0B;&#x4E00;&#x4F4D;&#x8FD0;&#x7B97;&#x65F6;&#x5C31;&#x8981;&#x52A0;&#x4E0A;&#x8FD9;&#x4E2A;&#x8FDB;&#x4F4D;&#xFF0C;&#x7528;&#x8FD9;&#x6837;&#x7684;&#x65B9;&#x5F0F;&#x76F4;&#x5230;&#x6700;&#x540E;&#x7B97;&#x51FA;&#x7ED3;&#x679C;&#x3002;&#x8FD9;&#x9898;&#x7684;&#x601D;&#x8DEF;&#x4E5F;&#x662F;&#x4E00;&#x6837;&#x7684;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x6709;&#x4E24;&#x70B9;&#x4E0D;&#x4E00;&#x6837;&#xFF0C;&#x7B2C;&#x4E00;&#xFF0C;10 &#x8FDB;&#x5236;&#x53D8;&#x6210;&#x4E86; 2 &#x8FDB;&#x5236;&#xFF0C;&#x7B2C;&#x4E8C;&#xFF0C;&#x6211;&#x4EEC;&#x4E0D;&#x518D;&#x662F;&#x5728;&#x8349;&#x7A3F;&#x7EB8;&#x4E0A;&#x5217;&#x7AD6;&#x5F0F;&#xFF0C;&#x800C;&#x662F;&#x8981;&#x5199;&#x6210;&#x8BA1;&#x7B97;&#x673A;&#x770B;&#x5F97;&#x61C2;&#x7684;&#x4EE3;&#x7801;&#xFF0C;&#x8FD9;&#x5C31;&#x5F97;&#x501F;&#x52A9;&#x6211;&#x4EEC;&#x7684;&#x4F4D;&#x8FD0;&#x7B97;&#x4E86;&#xFF0C;&#x56E0;&#x4E3A; 2 &#x8FDB;&#x5236;&#x8868;&#x793A;&#x7684;&#x6570;&#x4E2D;&#x53EA;&#x4F1A;&#x51FA;&#x73B0; 0 &#x548C; 1&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x628A;&#x8FD9;&#x4E24;&#x4E2A;&#x6570;&#x770B;&#x6210;&#x662F; true &#x548C; false&#xFF0C;&#x8FD9;&#x6837;&#x66F4;&#x597D;&#x7406;&#x89E3;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5148;&#x901A;&#x8FC7;&#x5F02;&#x6216;&#x585E;&#x9009;&#x51FA;&#x4E0D;&#x7528;&#x8FDB;&#x4F4D;&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x7136;&#x540E;&#x518D;&#x7528;&#x4E0E;&#x8FD0;&#x7B97;&#x548C;&#x5DE6;&#x79FB;&#x8FD0;&#x7B97;&#x8BA1;&#x7B97;&#x51FA;&#x8FDB;&#x4F4D;&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x8FED;&#x4EE3;&#x66F4;&#x65B0;&#x51FA;&#x6700;&#x540E;&#x7684;&#x7ED3;&#x679C;&#x3002;</p>
+<p><strong>&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;</strong><br></p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">plus</span><span class="hljs-params">(<span class="hljs-keyword">int</span> a, <span class="hljs-keyword">int</span> b)</span> </span>{
+    <span class="hljs-keyword">int</span> aTemp = <span class="hljs-number">0</span>, bTemp = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">while</span> (b != <span class="hljs-number">0</span>) {
+        aTemp = a ^ b;
+        bTemp = (a &amp; b) &lt;&lt; <span class="hljs-number">1</span>;
+        a = aTemp;
+        b = bTemp;
+    }
+
+    <span class="hljs-keyword">return</span> a;
+}
+</code></pre>
+<h2 id="problem-2">Problem 2</h2>
+<blockquote>
+<p>How to do swap without creating temporary variable</p>
+</blockquote>
+<p><strong>&#x89E3;&#x6CD5;&#x601D;&#x8DEF;&#xFF1A;</strong><br>
+&#x5F02;&#x6216;&#x7684;&#x5E38;&#x89C1;&#x5E94;&#x7528;&#xFF0C;&#x5F88;&#x7B80;&#x5355;&#xFF0C;&#x4F46;&#x662F;&#x6CE8;&#x610F;&#x601D;&#x8003;&#x89D2;&#x5EA6;&#x4ECE;&#x4F4D;&#x51FA;&#x53D1;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x6570;&#xFF0C;&#x8FD9;&#x70B9;&#x5F88;&#x91CD;&#x8981;&#x3002;
+<br></p>
+<p><strong>&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;</strong><br></p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title">swap</span><span class="hljs-params">(<span class="hljs-keyword">int</span> a, <span class="hljs-keyword">int</span> b)</span> </span>{
+    a ^= b; <span class="hljs-comment">// a &#x4E2D;&#x5B58;&#x653E;&#x4E24;&#x6570;&#x4E92;&#x5F02;&#x7684;&#x70B9;&#x4F4D;</span>
+    b ^= a; <span class="hljs-comment">// &#x53D6;&#x53CD; b &#x4E2D;&#x4E0D;&#x540C;&#x4E8E; a &#x7684;&#x70B9;&#x4F4D;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x5B9E;&#x73B0;&#x4E86; b = a</span>
+    a ^= b; <span class="hljs-comment">// &#x53D6;&#x53CD; a &#x4E2D;&#x4E0D;&#x540C;&#x4E8E; b &#x7684;&#x70B9;&#x4F4D;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x5B9E;&#x73B0;&#x4E86; a = b</span>
+}
+</code></pre>
+<h2 id="problem-3">Problem 3</h2>
+<blockquote>
+<p>If convert A to B, how many bits needed to be changed?</p>
+</blockquote>
+<p><strong>&#x89E3;&#x6CD5;&#x601D;&#x8DEF;&#xFF1A;</strong><br>
+&#x5F02;&#x6216;&#x7684;&#x7B80;&#x5355;&#x5E94;&#x7528;&#xFF0C;&#x4E24;&#x4E2A;&#x6570;&#x505A;&#x5F02;&#x6216;&#x7684;&#x7ED3;&#x679C;&#x5C31;&#x662F;&#x4E24;&#x4E2A;&#x6570;&#x5DEE;&#x5F02;&#x6240;&#x5728;&#xFF0C;&#x7136;&#x540E;&#x53EA;&#x9700;&#x8BA1;&#x7B97;&#x8FD9;&#x4E2A;&#x7ED3;&#x679C;&#x4E2D;&#x6709;&#x591A;&#x5C11;&#x4E2A; 1 &#x5373;&#x53EF;&#x3002;
+<br></p>
+<p><strong>&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;</strong><br></p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">convertA2B</span><span class="hljs-params">(<span class="hljs-keyword">int</span> A, <span class="hljs-keyword">int</span> B)</span> </span>{
+    <span class="hljs-keyword">int</span> n = A ^ B;
+    <span class="hljs-keyword">int</span> count = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">while</span> (n != <span class="hljs-number">0</span>) {
+        n = n &amp; (n - <span class="hljs-number">1</span>); <span class="hljs-comment">// n - 1 &#x662F;&#x5C06; n &#x7684;&#x6700;&#x4F4E;&#x4F4D;&#x4E3A;&#x96F6;</span>
+        count++;
+    }
+
+    <span class="hljs-keyword">return</span> count;
+}
+</code></pre>
+<h2 id="problem-4">Problem 4</h2>
+<p><a href="https://leetcode.com/problems/single-number/" target="_blank">LeetCode 136 Single Number</a></p>
+<blockquote>
+<p>Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+<br></p>
+</blockquote>
+<p><strong>&#x89E3;&#x6CD5;&#x601D;&#x8DEF;&#xFF1A;</strong><br>
+&#x5F02;&#x6216;&#x7684;&#x4E09;&#x4E2A;&#x70B9;&#x987A;&#x4E0B;&#x6765;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x5F88;&#x6E05;&#x695A;&#x5730;&#x89E3;&#x8FD9;&#x9053;&#x9898;&#xFF1A;
+<br></p>
+<p>&#x5F02;&#x6216;&#x8FD0;&#x7B97;&#x548C;&#x4E58;&#x6CD5;&#x4E00;&#x6837;&#xFF0C;&#x4F4D;&#x7F6E;&#x548C;&#x8FD0;&#x7B97;&#x987A;&#x5E8F;&#x4E0D;&#x5F71;&#x54CD;&#x6700;&#x540E;&#x7ED3;&#x679C;&#xFF1A;<code>a^b^c = b^c^a</code> <br>
+&#x4E24;&#x4E2A;&#x76F8;&#x540C;&#x7684;&#x6570;&#x505A;&#x5F02;&#x6216;&#x8FD0;&#x7B97;&#x7ED3;&#x679C;&#x4E3A;&#x96F6;&#xFF1A;<code>a^a = 0</code> <br>
+&#x4EFB;&#x4F55;&#x6570;&#x548C;&#x96F6;&#x505A;&#x5F02;&#x6216;&#x7ED3;&#x679C;&#x8FD8;&#x662F;&#x8FD9;&#x4E2A;&#x6570;&#x672C;&#x8EAB;&#xFF1A;<code>a^0 = a</code></p>
+<p><strong>&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;</strong><br></p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">findOnce</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] arr)</span> </span>{
+    <span class="hljs-keyword">int</span> result = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; arr.length; ++i) {
+        result ^= arr[i];
+    }
+
+    <span class="hljs-keyword">return</span> result;
+}
+</code></pre>
+<h2 id="problem-5">Problem 5</h2>
+<p><a href="https://leetcode.com/problems/single-number-ii/" target="_blank">LeetCode 137 Single Number II</a></p>
+<blockquote>
+<p>Given a non-empty array of integers, every element appears three times except for one, which appears exactly once. Find that single one.</p>
+</blockquote>
+<p><strong>&#x89E3;&#x6CD5;&#x601D;&#x8DEF;&#xFF1A;</strong><br>
+&#x8FD9;&#x9898;&#x7684;&#x96BE;&#x70B9;&#x5728;&#x4E8E; 3 &#x6B21;&#xFF0C;&#x5982;&#x679C;&#x628A;&#x6570;&#x7EC4;&#x91CC;&#x9762;&#x7684;&#x6570;&#x5B57;&#x5C31;&#x5F53;&#x4F5C;&#x6570;&#x5B57;&#x672C;&#x8EAB;&#x6765;&#x770B;&#x7684;&#x8BDD;&#xFF0C;&#x5F88;&#x96BE;&#x627E;&#x5230;&#x7A81;&#x7834;&#x53E3;&#xFF1B;&#x5982;&#x679C;&#x60F3;&#x5230;&#x4E86;&#x4F4D;&#x8FD0;&#x7B97;&#xFF0C;&#x90A3;&#x5C31;&#x8981;&#x6709;&#x4E00;&#x4E2A;&#x6982;&#x5FF5;&#x5C31;&#x662F;&#x4F4D;&#x8FD0;&#x7B97;&#x662F;&#x57FA;&#x4E8E;&#x4F4D;&#x7684;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x57FA;&#x4E8E;&#x6570;&#x7684;&#xFF0C;&#x5728;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x4E2D;&#xFF0C;&#x6240;&#x6709;&#x7684; bit &#x7684;&#x51FA;&#x73B0;&#x6B21;&#x6570;&#x53EA;&#x4F1A;&#x6709;&#x4E24;&#x79CD;&#x60C5;&#x51B5;&#xFF0C;<code>3*n&#xFF0C;3*n + 1</code>,&#x8FD9;&#x91CC;&#x7684; n &#x662F;&#x4EFB;&#x610F;&#x6574;&#x6570;&#xFF0C;&#x5047;&#x8BBE;&#x4F60;&#x904D;&#x5386;&#x6570;&#x7EC4;&#xFF0C;&#x5176;&#x5B9E;&#x4F1A;&#x6709;&#x4E00;&#x4E2A;&#x4E2D;&#x95F4;&#x6001;&#x5C31;&#x662F; <code>3*n + 2</code> &#x5B58;&#x5728;&#xFF0C;&#x5BF9;&#x4E8E;&#x9664;&#x8FD9;&#x4E2A;&#x6570;&#x4EE5;&#x5916;&#x7684;&#x5176;&#x4ED6;&#x6570;&#xFF0C;&#x8FC7;&#x7A0B;&#x5927;&#x6982;&#x662F; <code>3*n + 1</code> -&gt; <code>3*n + 2</code> -&gt; <code>3*n</code>&#xFF0C;&#x6211;&#x4EEC;&#x53EA;&#x8981;&#x8BB0;&#x5F55;&#x7684;&#x5C31;&#x662F; <code>3*n + 1</code> &#x548C; <code>3*n + 2</code>&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x56E0;&#x4E3A; <code>3*n</code> &#x5176;&#x5B9E;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x521D;&#x59CB;&#x72B6;&#x6001;&#xFF08;n=0&#xFF09;,&#x8BB0;&#x4E0D;&#x8BB0;&#x5F55;&#x548C;&#x6211;&#x4EEC;&#x6700;&#x540E;&#x8981;&#x8FD4;&#x56DE;&#x7684;&#x7B54;&#x6848;&#x65E0;&#x5173;&#xFF0C;&#x800C;&#x8BB0;&#x5F55; <code>3*n + 2</code> &#x662F;&#x4E3A;&#x4E86;&#x6062;&#x590D;&#x4E00;&#x4E9B; bit &#x4ECE; <code>3*n + 2</code> &#x5230; <code>3*n</code></p>
+<p><strong>&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;</strong><br></p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">singleNumber</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] nums)</span> </span>{
+    <span class="hljs-keyword">int</span> ones = <span class="hljs-number">0</span>, twos = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; nums.length; ++i) {
+        <span class="hljs-comment">// &#x627E;&#x51FA;&#x5F53;&#x524D;&#x7684; 3n + 1</span>
+        ones = (nums[i] ^ ones) &amp; (~twos);
+        <span class="hljs-comment">// &#x627E;&#x51FA;&#x5F53;&#x524D;&#x7684; 3n + 2</span>
+        twos = (nums[i] ^ twos) &amp; (~ones);
+    }
+
+    <span class="hljs-keyword">return</span> ones;
+}
+</code></pre>
+<h2 id="problem-6">Problem 6</h2>
+<p><a href="https://leetcode.com/problems/single-number-iii/" target="_blank">LeetCode 260 Single Number III</a></p>
+<blockquote>
+<p>Given an array of numbers nums, in which exactly two elements appear only once and all the other elements appear exactly twice. Find the two elements that appear only once.</p>
+</blockquote>
+<p><strong>&#x89E3;&#x6CD5;&#x601D;&#x8DEF;&#xFF1A;</strong><br>
+&#x8FD9;&#x9898;&#x7684;&#x4E3B;&#x8981;&#x96BE;&#x70B9;&#x662F;&#x5982;&#x4F55;&#x628A;&#x4E24;&#x4E2A;&#x6570;&#x7ED9;&#x62C6;&#x51FA;&#x6765;&#xFF0C;&#x5982;&#x679C;&#x76F4;&#x63A5;&#x8FD0;&#x7528;&#x5F02;&#x6216;&#x7B97;&#x6CD5;&#xFF0C;&#x6211;&#x4EEC;&#x6700;&#x540E;&#x5F97;&#x5230;&#x7684;&#x7ED3;&#x679C;&#x662F;&#x4E24;&#x4E2A;&#x6570;&#x505A;&#x5F02;&#x6216;&#x7684;&#x7ED3;&#x679C;&#xFF0C;&#x5173;&#x952E;&#x70B9;&#x662F;&#x5982;&#x4F55;&#x57FA;&#x4E8E;&#x8FD9;&#x4E2A;&#x5F02;&#x6216;&#x7684;&#x7ED3;&#x679C;&#x6765;&#x627E;&#x5230;&#x8FD9;&#x4E24;&#x4E2A;&#x6570;&#xFF0C;&#x6709;&#x4E00;&#x70B9;&#x5F88;&#x91CD;&#x8981;&#x7684;&#x5C31;&#x662F;&#xFF0C;&#x5F02;&#x6216;&#x7684;&#x7ED3;&#x679C;&#x4E3A; 1 &#x7684;&#x70B9;&#x4F4D;&#x53EA;&#x4F1A;&#x51FA;&#x73B0;&#x5728;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x6570;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x7528;&#x5176;&#x4E2D;&#x4E00;&#x4E2A;&#x4E3A; 1 &#x7684;&#x70B9;&#x4F4D;&#x4F5C;&#x4E3A;&#x5224;&#x65AD;&#x4F9D;&#x636E;&#xFF0C;&#x8FD9;&#x4E2A;&#x70B9;&#x4F4D;&#x5B58;&#x5728;&#x7684;&#x6240;&#x6709;&#x6570;&#x5728;&#x4E00;&#x8D77;&#x505A;&#x5F02;&#x6216;&#xFF0C;&#x8FD9;&#x4E2A;&#x70B9;&#x4F4D;&#x4E0D;&#x5B58;&#x5728;&#x7684;&#x6240;&#x6709;&#x6570;&#x4E00;&#x8D77;&#x505A;&#x5F02;&#x6216;&#xFF0C;&#x8FD9;&#x6837;&#x5C31;&#x628A;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x62C6;&#x89E3;&#x6210;&#x4E86;&#x4E24;&#x4E2A; problem 3&#x3002;</p>
+<p><strong>&#x53C2;&#x8003;&#x4EE3;&#x7801;&#xFF1A;</strong><br></p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span>[] singleNumber(<span class="hljs-keyword">int</span>[] nums) {
+    <span class="hljs-keyword">if</span> (nums == <span class="hljs-keyword">null</span> || nums.length == <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">2</span>];
+    }
+
+    <span class="hljs-keyword">int</span> different = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i : nums) {
+        different ^= i;
+    }
+
+    different &amp;= -different;
+    <span class="hljs-keyword">int</span>[] ans = {<span class="hljs-number">0</span>, <span class="hljs-number">0</span>};
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i : nums) {
+        <span class="hljs-keyword">if</span> ((different &amp; i) == <span class="hljs-number">0</span>) {
+            ans[<span class="hljs-number">0</span>] ^= i;
+        } <span class="hljs-keyword">else</span> {
+            ans[<span class="hljs-number">1</span>] ^= i;
+        }
+    }
+
+    <span class="hljs-keyword">return</span> ans;
+}
+</code></pre>
+<h2 id="&#x603B;&#x7ED3;&#xFF1A;">&#x603B;&#x7ED3;&#xFF1A;</h2>
+<p>&#x4F4D;&#x8FD0;&#x7B97;&#x76F8;&#x5BF9;&#x5176;&#x4ED6;&#x7684;&#x8FD0;&#x7B97;&#x6765;&#x8BF4;&#x66F4;&#x52A0;&#x7684;&#x9AD8;&#x6548;&#xFF0C;&#x5F02;&#x6216;&#x5728;&#x4F4D;&#x8FD0;&#x7B97;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x975E;&#x5E38;&#x5E7F;&#xFF0C;&#x4F46;&#x662F;&#x8FD9;&#x91CC;&#x7684;&#x96BE;&#x70B9;&#x662F;&#x6211;&#x4EEC;&#x5E73;&#x65F6;&#x53EF;&#x80FD;&#x4F1A;&#x5FFD;&#x89C6;&#x4F4D;&#x8FD0;&#x7B97;&#xFF0C;&#x5BFC;&#x81F4;&#x6211;&#x4EEC;&#x9047;&#x5230;&#x4E00;&#x822C;&#x7684;&#x95EE;&#x9898;&#x4E0D;&#x4F1A;&#x5F80;&#x4F4D;&#x8FD0;&#x7B97;&#x7684;&#x65B9;&#x5411;&#x53BB;&#x60F3;&#xFF0C;&#x53E6;&#x5916;&#x5C31;&#x662F;&#x5982;&#x679C;&#x5BF9;&#x4E8C;&#x8FDB;&#x5236;&#x7684;&#x8FD0;&#x7B97;&#x4E0D;&#x719F;&#xFF0C;&#x6211;&#x4EEC;&#x4E5F;&#x5F88;&#x96BE;&#x7406;&#x89E3;&#x4E00;&#x4E9B;&#x4F4D;&#x8FD0;&#x7B97;&#x7684;&#x7EFC;&#x5408;&#x64CD;&#x4F5C;&#xFF0C;&#x8FD9;&#x91CC;&#x63D0;&#x5230;&#x4E86;&#x5F02;&#x6216;&#x53EF;&#x4EE5;&#x4EA4;&#x6362;&#x4E24;&#x4E2A;&#x6570;&#xFF0C;&#x505A;&#x52A0;&#x6CD5;&#x64CD;&#x4F5C;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x89E3;&#x51B3;&#x4E00;&#x4E9B;&#x95EE;&#x9898;&#x3002;</p>
+<p><br>
+&#x4E5F;&#x6B22;&#x8FCE;&#x4F60;&#x6765;&#x5206;&#x4EAB;&#x4F60;&#x5BF9;&#x5F02;&#x6216;&#x4EE5;&#x53CA;&#x4F4D;&#x8FD0;&#x7B97;&#x7684;&#x8BA4;&#x8BC6;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Arts-001.html" class="navigation navigation-prev " aria-label="Previous page: Week 1">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../week002/Arts-002.html" class="navigation navigation-next " aria-label="Next page: Week 2">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"位运算中异或的常见用法总结","level":"1.2.1","depth":2,"next":{"title":"Week 2","level":"1.3","depth":1,"path":"week002/Arts-002.md","ref":"./week002/Arts-002.md","articles":[{"title":"关于JavaScript函数传参的那点事","level":"1.3.1","depth":2,"path":"week002/关于JavaScript函数传参的那点事.md","ref":"./week002/关于JavaScript函数传参的那点事.md","articles":[]}]},"previous":{"title":"Week 1","level":"1.2","depth":1,"path":"week001/Arts-001.md","ref":"./week001/Arts-001.md","articles":[{"title":"位运算中异或的常见用法总结","level":"1.2.1","depth":2,"path":"week001/位运算中异或的常见用法总结.md","ref":"./week001/位运算中异或的常见用法总结.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"week001/位运算中异或的常见用法总结.md","mtime":"2019-07-15T05:53:21.743Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-20T02:38:22.171Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

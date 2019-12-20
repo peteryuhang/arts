@@ -1,0 +1,1839 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>LeetCode滑动窗口（SlidingWindow）类问题总结 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../week008/Arts-008.html" />
+    
+    
+    <link rel="prev" href="Arts-007.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../week001/Arts-001.html">
+            
+                <a href="../week001/Arts-001.html">
+            
+                    
+                    Week 1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../week001/位运算中异或的常见用法总结.html">
+            
+                <a href="../week001/位运算中异或的常见用法总结.html">
+            
+                    
+                    位运算中异或的常见用法总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../week002/Arts-002.html">
+            
+                <a href="../week002/Arts-002.html">
+            
+                    
+                    Week 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../week002/关于JavaScript函数传参的那点事.html">
+            
+                <a href="../week002/关于JavaScript函数传参的那点事.html">
+            
+                    
+                    关于JavaScript函数传参的那点事
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../week003/Arts-003.html">
+            
+                <a href="../week003/Arts-003.html">
+            
+                    
+                    Week 3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../week003/常见背包问题解法分析.html">
+            
+                <a href="../week003/常见背包问题解法分析.html">
+            
+                    
+                    常见背包问题解法分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../week004/Arts-004.html">
+            
+                <a href="../week004/Arts-004.html">
+            
+                    
+                    Week 4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../week004/写项目代码之前必须要做的事.html">
+            
+                <a href="../week004/写项目代码之前必须要做的事.html">
+            
+                    
+                    写项目代码之前必须要做的事
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../week005/Arts-005.html">
+            
+                <a href="../week005/Arts-005.html">
+            
+                    
+                    Week 5
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../week005/利用位运算解决N皇后问题.html">
+            
+                <a href="../week005/利用位运算解决N皇后问题.html">
+            
+                    
+                    利用位运算解决N皇后问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../week005/关于面试，我这样看.html">
+            
+                <a href="../week005/关于面试，我这样看.html">
+            
+                    
+                    关于面试，我这样看
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../week006/Arts-006.html">
+            
+                <a href="../week006/Arts-006.html">
+            
+                    
+                    Week 6
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../week006/股票问题汇总.html">
+            
+                <a href="../week006/股票问题汇总.html">
+            
+                    
+                    股票问题汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.8" data-path="Arts-007.html">
+            
+                <a href="Arts-007.html">
+            
+                    
+                    Week 7
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.8.1" data-path="LeetCode滑动窗口（SlidingWindow）类问题总结.html">
+            
+                <a href="LeetCode滑动窗口（SlidingWindow）类问题总结.html">
+            
+                    
+                    LeetCode滑动窗口（SlidingWindow）类问题总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../week008/Arts-008.html">
+            
+                <a href="../week008/Arts-008.html">
+            
+                    
+                    Week 8
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../week008/LeetCode312BurstBalloons思路分析总结.html">
+            
+                <a href="../week008/LeetCode312BurstBalloons思路分析总结.html">
+            
+                    
+                    LeetCode312BurstBalloons思路分析总结
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1.1" data-path="../week008/谈谈学习编程过程中的意识误区.html">
+            
+                <a href="../week008/谈谈学习编程过程中的意识误区.html">
+            
+                    
+                    谈谈学习编程过程中的意识误区
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../week009/Arts-009.html">
+            
+                <a href="../week009/Arts-009.html">
+            
+                    
+                    Week 9
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../week009/从简单二叉树问题重新来看深度优先搜索.html">
+            
+                <a href="../week009/从简单二叉树问题重新来看深度优先搜索.html">
+            
+                    
+                    从简单二叉树问题重新来看深度优先搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../week010/Arts-010.html">
+            
+                <a href="../week010/Arts-010.html">
+            
+                    
+                    Week 10
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../week010/ARTS阶段性总结.html">
+            
+                <a href="../week010/ARTS阶段性总结.html">
+            
+                    
+                    ARTS阶段性总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../week011/Arts-011.html">
+            
+                <a href="../week011/Arts-011.html">
+            
+                    
+                    Week 11
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../week011/程序员需要了解的逻辑学思想.html">
+            
+                <a href="../week011/程序员需要了解的逻辑学思想.html">
+            
+                    
+                    程序员需要了解的逻辑学思想
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../week012/Arts-012.html">
+            
+                <a href="../week012/Arts-012.html">
+            
+                    
+                    Week 12
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../week012/学习中的典型思维误区总结.html">
+            
+                <a href="../week012/学习中的典型思维误区总结.html">
+            
+                    
+                    学习中的典型思维误区总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../week013/Arts-013.html">
+            
+                <a href="../week013/Arts-013.html">
+            
+                    
+                    Week 13
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../week013/拓扑排序原理和习题分析.html">
+            
+                <a href="../week013/拓扑排序原理和习题分析.html">
+            
+                    
+                    拓扑排序原理和习题分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../week014/Arts-014.html">
+            
+                <a href="../week014/Arts-014.html">
+            
+                    
+                    Week 14
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../week014/布隆过滤器原理和应用分析.html">
+            
+                <a href="../week014/布隆过滤器原理和应用分析.html">
+            
+                    
+                    布隆过滤器原理和应用分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../week015/Arts-015.html">
+            
+                <a href="../week015/Arts-015.html">
+            
+                    
+                    Week 15
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.1" data-path="../week015/JavaScript中的对象（一）-对象的概念、模型、以及创建.html">
+            
+                <a href="../week015/JavaScript中的对象（一）-对象的概念、模型、以及创建.html">
+            
+                    
+                    JavaScript中的对象（一）-对象的概念、模型、以及创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../week016/Arts-016.html">
+            
+                <a href="../week016/Arts-016.html">
+            
+                    
+                    Week 16
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.17.1" data-path="../week016/JavaScript中的对象(二">
+            
+                <span>
+            
+                    
+                    JavaScript中的对象(二)-继承与多态.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../week017/Arts-017.html">
+            
+                <a href="../week017/Arts-017.html">
+            
+                    
+                    Week 17
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.18.1" data-path="../week017/关于质数你所应该知道的.html">
+            
+                <a href="../week017/关于质数你所应该知道的.html">
+            
+                    
+                    关于质数你所应该知道的
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../week018/Arts-018.html">
+            
+                <a href="../week018/Arts-018.html">
+            
+                    
+                    Week 18
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.19.1" data-path="../week018/JavaScript中的闭包函数.html">
+            
+                <a href="../week018/JavaScript中的闭包函数.html">
+            
+                    
+                    JavaScript中的闭包函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../week019/Arts-019.html">
+            
+                <a href="../week019/Arts-019.html">
+            
+                    
+                    Week 19
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.20.1" data-path="../week019/深度解析LC10.RegularExpressionMatching.html">
+            
+                <a href="../week019/深度解析LC10.RegularExpressionMatching.html">
+            
+                    
+                    深度解析LC10.RegularExpressionMatching
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../week020/Arts-020.html">
+            
+                <a href="../week020/Arts-020.html">
+            
+                    
+                    Week 20
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.21.1" data-path="../week020/React初探.html">
+            
+                <a href="../week020/React初探.html">
+            
+                    
+                    React初探
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="../week021/Arts-021.html">
+            
+                <a href="../week021/Arts-021.html">
+            
+                    
+                    Week 21
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.22.1" data-path="../week021/二分查找模版、题型全面解析.html">
+            
+                <a href="../week021/二分查找模版、题型全面解析.html">
+            
+                    
+                    二分查找模版、题型全面解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="../week022/Arts-022.html">
+            
+                <a href="../week022/Arts-022.html">
+            
+                    
+                    Week 22
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.23.1" data-path="../week022/LeetCode二叉树问题总结.html">
+            
+                <a href="../week022/LeetCode二叉树问题总结.html">
+            
+                    
+                    LeetCode二叉树问题总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="../week023/Arts-023.html">
+            
+                <a href="../week023/Arts-023.html">
+            
+                    
+                    Week 23
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.24.1" data-path="../week023/广度优先搜索（BFS）总结分析.html">
+            
+                <a href="../week023/广度优先搜索（BFS）总结分析.html">
+            
+                    
+                    广度优先搜索（BFS）总结分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="../week024/Arts-024.html">
+            
+                <a href="../week024/Arts-024.html">
+            
+                    
+                    Week 24
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="../week025/Arts-025.html">
+            
+                <a href="../week025/Arts-025.html">
+            
+                    
+                    Week 25
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="../week026/Arts-026.html">
+            
+                <a href="../week026/Arts-026.html">
+            
+                    
+                    Week 26
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.27.1" data-path="../week026/TwoSum相关问题思路总结.html">
+            
+                <a href="../week026/TwoSum相关问题思路总结.html">
+            
+                    
+                    TwoSum相关问题思路总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="../week027/Arts-027.html">
+            
+                <a href="../week027/Arts-027.html">
+            
+                    
+                    Week 27
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="../week028/Arts-028.html">
+            
+                <a href="../week028/Arts-028.html">
+            
+                    
+                    Week 28
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.29.1" data-path="../week028/并查集概念及用法分析.html">
+            
+                <a href="../week028/并查集概念及用法分析.html">
+            
+                    
+                    并查集概念及用法分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="../week029/Arts-029.html">
+            
+                <a href="../week029/Arts-029.html">
+            
+                    
+                    Week 29
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.30.1" data-path="../week029/字典树概念与题型解析.html">
+            
+                <a href="../week029/字典树概念与题型解析.html">
+            
+                    
+                    字典树概念与题型解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="../week030/Arts-030.html">
+            
+                <a href="../week030/Arts-030.html">
+            
+                    
+                    Week 30
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.31.1" data-path="../week030/应该如何看待问题.html">
+            
+                <a href="../week030/应该如何看待问题.html">
+            
+                    
+                    应该如何看待问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="../week031/Arts-031.html">
+            
+                <a href="../week031/Arts-031.html">
+            
+                    
+                    Week 31
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="../week032/Arts-032.html">
+            
+                <a href="../week032/Arts-032.html">
+            
+                    
+                    Week 32
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.33.1" data-path="../week032/谈谈面试.html">
+            
+                <a href="../week032/谈谈面试.html">
+            
+                    
+                    谈谈面试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="../week033/Arts-033.html">
+            
+                <a href="../week033/Arts-033.html">
+            
+                    
+                    Week 33
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.34.1" data-path="../week033/动态规划之初识动规.html">
+            
+                <a href="../week033/动态规划之初识动规.html">
+            
+                    
+                    动态规划之初识动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="../week034/Arts-034.html">
+            
+                <a href="../week034/Arts-034.html">
+            
+                    
+                    Week 34
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.35.1" data-path="../week034/动态规划之矩阵类动规.html">
+            
+                <a href="../week034/动态规划之矩阵类动规.html">
+            
+                    
+                    动态规划之矩阵类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="../week035/Arts-035.html">
+            
+                <a href="../week035/Arts-035.html">
+            
+                    
+                    Week 35
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.36.1" data-path="../week035/动态规划之序列类动规.html">
+            
+                <a href="../week035/动态规划之序列类动规.html">
+            
+                    
+                    动态规划之序列类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="../week036/Arts-036.html">
+            
+                <a href="../week036/Arts-036.html">
+            
+                    
+                    Week 36
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.37.1" data-path="../week036/动态规划之字符匹配类动规.html">
+            
+                <a href="../week036/动态规划之字符匹配类动规.html">
+            
+                    
+                    动态规划之字符匹配类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="../week037/Arts-037.html">
+            
+                <a href="../week037/Arts-037.html">
+            
+                    
+                    Week 37
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.38.1" data-path="../week037/动态规划之区间类动规.html">
+            
+                <a href="../week037/动态规划之区间类动规.html">
+            
+                    
+                    动态规划之区间类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="../week038/Arts-038.html">
+            
+                <a href="../week038/Arts-038.html">
+            
+                    
+                    Week 38
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="../week039/Arts-039.html">
+            
+                <a href="../week039/Arts-039.html">
+            
+                    
+                    Week 39
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.40.1" data-path="../week039/动态规划之背包类动规.html">
+            
+                <a href="../week039/动态规划之背包类动规.html">
+            
+                    
+                    动态规划之背包类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >LeetCode滑动窗口（SlidingWindow）类问题总结</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p><strong>&#x5BFC;&#x8BED;</strong></p>
+<blockquote>
+<p>&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x7C7B;&#x95EE;&#x9898;&#x662F;&#x9762;&#x8BD5;&#x5F53;&#x4E2D;&#x7684;&#x9AD8;&#x9891;&#x9898;&#xFF0C;&#x95EE;&#x9898;&#x672C;&#x8EAB;&#x5176;&#x5B9E;&#x5E76;&#x4E0D;&#x590D;&#x6742;&#xFF0C;&#x4F46;&#x662F;&#x5B9E;&#x73B0;&#x8D77;&#x6765;&#x7EC6;&#x8282;&#x601D;&#x8003;&#x975E;&#x5E38;&#x7684;&#x591A;&#xFF0C;&#x60F3;&#x7740;&#x60F3;&#x7740;&#x53EF;&#x80FD;&#x56E0;&#x4E3A;&#x53D8;&#x91CF;&#x53D8;&#x5316;&#xFF0C;&#x6307;&#x9488;&#x79FB;&#x52A8;&#x7B49;&#x7B49;&#x95EE;&#x9898;&#xFF0C;&#x5BFC;&#x81F4;&#x7A0B;&#x5E8F;&#x53CD;&#x590D;&#x5220;&#x6765;&#x6539;&#x53BB;&#xFF0C;&#x6709;&#x601D;&#x8DEF;&#xFF0C;&#x4F46;&#x662F;&#x7A0B;&#x5E8F;&#x5199;&#x4E0D;&#x51FA;&#x662F;&#x8FD9;&#x7C7B;&#x95EE;&#x9898;&#x6700;&#x5927;&#x7684;&#x969C;&#x788D;&#x3002;&#x672C;&#x6587;&#x4F1A;&#x5C06; LeetCode &#x91CC;&#x9762;&#x7684;&#x5927;&#x90E8;&#x5206;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x95EE;&#x9898;&#x5206;&#x6790;&#x3001;&#x603B;&#x7ED3;&#x3001;&#x5206;&#x7C7B;&#xFF0C;&#x5E76;&#x63D0;&#x4F9B;&#x4E00;&#x4E2A;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x7684;&#x6A21;&#x7248;&#xFF0C;&#x76F8;&#x4FE1;&#x53EF;&#x4EE5;&#x6709;&#x6548;&#x51CF;&#x5C11;&#x9762;&#x8BD5;&#x5F53;&#x4E2D;&#x7684;&#x7B97;&#x6CD5;&#x5B9E;&#x73B0;&#x90E8;&#x5206;&#x7684;&#x4E0D;&#x786E;&#x5B9A;&#x6027;&#x3002;</p>
+</blockquote>
+<p><br></p>
+<h2 id="&#x9898;&#x76EE;&#x6982;&#x89C8;">&#x9898;&#x76EE;&#x6982;&#x89C8;</h2>
+<p>&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x8FD9;&#x7C7B;&#x95EE;&#x9898;&#x4E00;&#x822C;&#x9700;&#x8981;&#x7528;&#x5230;&#x53CC;&#x6307;&#x9488;&#x6765;&#x8FDB;&#x884C;&#x6C42;&#x89E3;&#xFF0C;&#x53E6;&#x5916;&#x4E00;&#x7C7B;&#x6BD4;&#x8F83;&#x7279;&#x6B8A;&#x5219;&#x662F;&#x9700;&#x8981;&#x7528;&#x5230;&#x7279;&#x5B9A;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF0C;&#x50CF;&#x662F; sorted_map&#x3002;&#x540E;&#x8005;&#x6709;&#x7279;&#x5B9A;&#x7684;&#x9898;&#x578B;&#xFF0C;&#x540E;&#x9762;&#x4F1A;&#x5217;&#x51FA;&#x6765;&#xFF0C;&#x4F46;&#x662F;&#xFF0C;&#x5BF9;&#x4E8E;&#x524D;&#x8005;&#xFF0C;&#x9898;&#x5F62;&#x53D8;&#x5316;&#x975E;&#x5E38;&#x7684;&#x5927;&#xFF0C;&#x4E00;&#x822C;&#x90FD;&#x662F;&#x57FA;&#x4E8E;&#x5B57;&#x7B26;&#x4E32;&#x548C;&#x6570;&#x7EC4;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x4EEC;&#x91CD;&#x70B9;&#x603B;&#x7ED3;&#x8FD9;&#x79CD;&#x57FA;&#x4E8E;&#x53CC;&#x6307;&#x9488;&#x7684;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x95EE;&#x9898;&#x3002;</p>
+<p>&#x9898;&#x76EE;&#x95EE;&#x6CD5;&#x5927;&#x81F4;&#x6709;&#x8FD9;&#x51E0;&#x79CD;&#xFF1A;</p>
+<ul>
+<li>&#x7ED9;&#x4E24;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x4E00;&#x957F;&#x4E00;&#x77ED;&#xFF0C;&#x95EE;&#x5176;&#x4E2D;&#x77ED;&#x7684;&#x662F;&#x5426;&#x5728;&#x957F;&#x7684;&#x4E2D;&#x6EE1;&#x8DB3;&#x4E00;&#x5B9A;&#x7684;&#x6761;&#x4EF6;&#x5B58;&#x5728;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;<ul>
+<li>&#x6C42;&#x957F;&#x7684;&#x7684;&#x6700;&#x77ED;&#x5B50;&#x4E32;&#xFF0C;&#x8BE5;&#x5B50;&#x4E32;&#x5FC5;&#x987B;&#x6DB5;&#x76D6;&#x77ED;&#x7684;&#x7684;&#x6240;&#x6709;&#x5B57;&#x7B26;</li>
+<li>&#x77ED;&#x7684;&#x7684; anagram &#x5728;&#x957F;&#x7684;&#x4E2D;&#x51FA;&#x73B0;&#x7684;&#x6240;&#x6709;&#x4F4D;&#x7F6E;</li>
+<li>...</li>
+</ul>
+</li>
+<li>&#x7ED9;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x6216;&#x8005;&#x6570;&#x7EC4;&#xFF0C;&#x95EE;&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x5B50;&#x4E32;&#x6216;&#x8005;&#x5B50;&#x6570;&#x7EC4;&#x662F;&#x5426;&#x6EE1;&#x8DB3;&#x4E00;&#x5B9A;&#x7684;&#x6761;&#x4EF6;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;<ul>
+<li>&#x542B;&#x6709;&#x5C11;&#x4E8E; k &#x4E2A;&#x4E0D;&#x540C;&#x5B57;&#x7B26;&#x7684;&#x6700;&#x957F;&#x5B50;&#x4E32;</li>
+<li>&#x6240;&#x6709;&#x5B57;&#x7B26;&#x90FD;&#x53EA;&#x51FA;&#x73B0;&#x4E00;&#x6B21;&#x7684;&#x6700;&#x957F;&#x5B50;&#x4E32;</li>
+<li>...</li>
+</ul>
+</li>
+</ul>
+<p>&#x9664;&#x6B64;&#x4E4B;&#x5916;&#xFF0C;&#x8FD8;&#x6709;&#x4E00;&#x4E9B;&#x5176;&#x4ED6;&#x7684;&#x95EE;&#x6CD5;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x53D8;&#x7684;&#x662F;&#xFF0C;&#x8FD9;&#x7C7B;&#x9898;&#x76EE;&#x8131;&#x79BB;&#x4E0D;&#x5F00;&#x4E3B;&#x4E32;&#xFF08;&#x4E3B;&#x6570;&#x7EC4;&#xFF09;&#x548C;&#x5B50;&#x4E32;&#xFF08;&#x5B50;&#x6570;&#x7EC4;&#xFF09;&#x7684;&#x5173;&#x7CFB;&#xFF0C;&#x8981;&#x6C42;&#x7684;&#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x5F80;&#x5F80;&#x662F; $O(n)$&#xFF0C;&#x7A7A;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x5F80;&#x5F80;&#x662F;&#x5E38;&#x6570;&#x7EA7;&#x7684;&#x3002;&#x4E4B;&#x6240;&#x4EE5;&#x662F;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#xFF0C;&#x662F;&#x56E0;&#x4E3A;&#xFF0C;&#x904D;&#x5386;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E24;&#x4E2A;&#x6307;&#x9488;&#x4E00;&#x524D;&#x4E00;&#x540E;&#x5939;&#x7740;&#x7684;&#x5B50;&#x4E32;&#xFF08;&#x5B50;&#x6570;&#x7EC4;&#xFF09;&#x7C7B;&#x4F3C;&#x4E00;&#x4E2A;&#x7A97;&#x53E3;&#xFF0C;&#x8FD9;&#x4E2A;&#x7A97;&#x53E3;&#x5927;&#x5C0F;&#x548C;&#x8303;&#x56F4;&#x4F1A;&#x968F;&#x7740;&#x524D;&#x540E;&#x6307;&#x9488;&#x7684;&#x79FB;&#x52A8;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x3002;</p>
+<p><br></p>
+<h2 id="&#x89E3;&#x9898;&#x601D;&#x8DEF;">&#x89E3;&#x9898;&#x601D;&#x8DEF;</h2>
+<p>&#x6839;&#x636E;&#x524D;&#x9762;&#x7684;&#x63CF;&#x8FF0;&#xFF0C;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x5C31;&#x662F;&#x8FD9;&#x7C7B;&#x9898;&#x76EE;&#x7684;&#x91CD;&#x70B9;&#xFF0C;&#x6362;&#x53E5;&#x8BDD;&#x8BF4;&#xFF0C;&#x7A97;&#x53E3;&#x7684;&#x79FB;&#x52A8;&#x5C31;&#x662F;&#x91CD;&#x70B9;&#x3002;&#x6211;&#x4EEC;&#x8981;&#x63A7;&#x5236;&#x524D;&#x540E;&#x6307;&#x9488;&#x7684;&#x79FB;&#x52A8;&#x6765;&#x63A7;&#x5236;&#x7A97;&#x53E3;&#xFF0C;&#x8FD9;&#x6837;&#x7684;&#x79FB;&#x52A8;&#x662F;&#x6709;&#x6761;&#x4EF6;&#x7684;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8981;&#x60F3;&#x6E05;&#x695A;&#x5728;&#x4EC0;&#x4E48;&#x60C5;&#x51B5;&#x4E0B;&#x79FB;&#x52A8;&#xFF0C;&#x5728;&#x4EC0;&#x4E48;&#x60C5;&#x51B5;&#x4E0B;&#x4FDD;&#x6301;&#x4E0D;&#x53D8;&#xFF0C;&#x6211;&#x5728;&#x8FD9;&#x91CC;&#x8BB2;&#x8BB2;&#x6211;&#x7684;&#x60F3;&#x6CD5;&#xFF0C;&#x6211;&#x7684;&#x601D;&#x8DEF;&#x662F;&#x4FDD;&#x8BC1;&#x53F3;&#x6307;&#x9488;&#x6BCF;&#x6B21;&#x5F80;&#x524D;&#x79FB;&#x52A8;&#x4E00;&#x683C;&#xFF0C;&#x6BCF;&#x6B21;&#x79FB;&#x52A8;&#x90FD;&#x4F1A;&#x6709;&#x65B0;&#x7684;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x8FDB;&#x5165;&#x7A97;&#x53E3;&#xFF0C;&#x8FD9;&#x65F6;&#x6761;&#x4EF6;&#x53EF;&#x80FD;&#x5C31;&#x4F1A;&#x53D1;&#x751F;&#x6539;&#x53D8;&#xFF0C;&#x7136;&#x540E;&#x6839;&#x636E;&#x5F53;&#x524D;&#x6761;&#x4EF6;&#x6765;&#x51B3;&#x5B9A;&#x5DE6;&#x6307;&#x9488;&#x662F;&#x5426;&#x79FB;&#x52A8;&#xFF0C;&#x4EE5;&#x53CA;&#x79FB;&#x52A8;&#x591A;&#x5C11;&#x683C;&#x3002;&#x6211;&#x5199;&#x6765;&#x4E00;&#x4E2A;&#x6A21;&#x7248;&#x5728;&#x8FD9;&#x91CC;&#xFF0C;&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">slidingWindowTemplate</span><span class="hljs-params">(String[] a, ...)</span> </span>{
+    <span class="hljs-comment">// &#x8F93;&#x5165;&#x53C2;&#x6570;&#x6709;&#x6548;&#x6027;&#x5224;&#x65AD;</span>
+    <span class="hljs-keyword">if</span> (...) {
+        ...
+    }
+
+    <span class="hljs-comment">// &#x7533;&#x8BF7;&#x4E00;&#x4E2A;&#x6563;&#x5217;&#xFF0C;&#x7528;&#x4E8E;&#x8BB0;&#x5F55;&#x7A97;&#x53E3;&#x4E2D;&#x5177;&#x4F53;&#x5143;&#x7D20;&#x7684;&#x4E2A;&#x6570;&#x60C5;&#x51B5;</span>
+    <span class="hljs-comment">// &#x8FD9;&#x91CC;&#x7528;&#x6570;&#x7EC4;&#x7684;&#x5F62;&#x5F0F;&#x5448;&#x73B0;&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x5176;&#x4ED6;&#x6570;&#x636E;&#x7ED3;&#x6784;</span>
+    <span class="hljs-keyword">int</span>[] hash = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[...];
+
+    <span class="hljs-comment">// &#x9884;&#x5904;&#x7406;(&#x53EF;&#x7701;), &#x4E00;&#x822C;&#x60C5;&#x51B5;&#x662F;&#x6539;&#x53D8; hash</span>
+    ...
+
+    <span class="hljs-comment">// l &#x8868;&#x793A;&#x5DE6;&#x6307;&#x9488;</span>
+    <span class="hljs-comment">// count &#x8BB0;&#x5F55;&#x5F53;&#x524D;&#x7684;&#x6761;&#x4EF6;&#xFF0C;&#x5177;&#x4F53;&#x6839;&#x636E;&#x9898;&#x76EE;&#x8981;&#x6C42;&#x6765;&#x5B9A;&#x4E49;</span>
+    <span class="hljs-comment">// result &#x7528;&#x6765;&#x5B58;&#x653E;&#x7ED3;&#x679C;</span>
+    <span class="hljs-keyword">int</span> l = <span class="hljs-number">0</span>, count = ..., result = ...;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> r = <span class="hljs-number">0</span>; r &lt; A.length; ++r) {
+        <span class="hljs-comment">// &#x66F4;&#x65B0;&#x65B0;&#x5143;&#x7D20;&#x5728;&#x6563;&#x5217;&#x4E2D;&#x7684;&#x6570;&#x91CF;</span>
+        hash[A[r]]--;
+
+        <span class="hljs-comment">// &#x6839;&#x636E;&#x7A97;&#x53E3;&#x7684;&#x53D8;&#x66F4;&#x7ED3;&#x679C;&#x6765;&#x6539;&#x53D8;&#x6761;&#x4EF6;&#x503C;</span>
+        <span class="hljs-keyword">if</span> (hash[A[r]] == ...) {
+            count++;
+        }
+
+        <span class="hljs-comment">// &#x5982;&#x679C;&#x5F53;&#x524D;&#x6761;&#x4EF6;&#x4E0D;&#x6EE1;&#x8DB3;&#xFF0C;&#x79FB;&#x52A8;&#x5DE6;&#x6307;&#x9488;&#x76F4;&#x81F3;&#x6761;&#x4EF6;&#x6EE1;&#x8DB3;&#x4E3A;&#x6B62;</span>
+        <span class="hljs-keyword">while</span> (count &gt; K || ...) {
+            ...
+            <span class="hljs-keyword">if</span> (...) {
+                count--;
+            }
+            hash[A[l]]++;
+            l++;
+        }
+
+        <span class="hljs-comment">// &#x66F4;&#x65B0;&#x7ED3;&#x679C;</span>
+        results = ...
+    }
+
+    <span class="hljs-keyword">return</span> results;
+}
+</code></pre>
+<p>&#x8FD9;&#x91CC;&#x9762;&#x7684; &#x201C;&#x79FB;&#x52A8;&#x5DE6;&#x6307;&#x9488;&#x76F4;&#x81F3;&#x6761;&#x4EF6;&#x6EE1;&#x8DB3;&#x201D; &#x90E8;&#x5206;&#xFF0C;&#x9700;&#x8981;&#x5177;&#x4F53;&#x9898;&#x76EE;&#x5177;&#x4F53;&#x5206;&#x6790;&#xFF0C;&#x5176;&#x4ED6;&#x90E8;&#x5206;&#x7684;&#x53D8;&#x5316;&#x4E0D;&#x5927;&#xFF0C;&#x6211;&#x73B0;&#x5728;&#x6765;&#x770B;&#x770B;&#x5177;&#x4F53;&#x7684;&#x9898;&#x76EE;&#x3002;</p>
+<p><br></p>
+<h2 id="&#x5177;&#x4F53;&#x9898;&#x76EE;&#x5206;&#x6790;&#x53CA;&#x4EE3;&#x7801;">&#x5177;&#x4F53;&#x9898;&#x76EE;&#x5206;&#x6790;&#x53CA;&#x4EE3;&#x7801;</h2>
+<p><a href="https://leetcode.com/problems/find-all-anagrams-in-a-string/" target="_blank">438. Find All Anagrams in a String</a></p>
+<p>&#x522B;&#x770B;&#x8FD9;&#x662F;&#x4E00;&#x9053; easy &#x96BE;&#x5EA6;&#x7684;&#x9898;&#x76EE;&#xFF0C;&#x5982;&#x679C;&#x9650;&#x5B9A;&#x4F60;&#x5728; $O(n)$ &#x65F6;&#x95F4;&#x590D;&#x6742;&#x5EA6;&#x5185;&#x5B9E;&#x73B0;&#x5462;&#xFF1F;&#x6309;&#x7167;&#x6A21;&#x7248;&#x4F1A;&#x5F88;&#x7B80;&#x5355;&#xFF0C;&#x9996;&#x5148;&#x7A97;&#x53E3;&#x662F;&#x56FA;&#x5B9A;&#x7684;&#xFF0C;&#x7A97;&#x53E3;&#x957F;&#x5EA6;&#x5C31;&#x662F;&#x8F93;&#x5165;&#x53C2;&#x6570;&#x4E2D;&#x7B2C;&#x4E8C;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x957F;&#x5EA6;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x8BF4;&#xFF0C;&#x53F3;&#x6307;&#x9488;&#x79FB;&#x52A8;&#x5230;&#x67D0;&#x4E2A;&#x4F4D;&#x7F6E;&#x540E;&#xFF0C;&#x5DE6;&#x6307;&#x9488;&#x5FC5;&#x987B;&#x8DDF;&#x7740;&#x4E00;&#x540C;&#x79FB;&#x52A8;&#xFF0C;&#x4E14;&#x6BCF;&#x6B21;&#x79FB;&#x52A8;&#x90FD;&#x662F;&#x4E00;&#x683C;&#xFF0C;&#x6A21;&#x7248;&#x4E2D; count &#x7528;&#x6765;&#x8BB0;&#x5F55;&#x7A97;&#x53E3;&#x5185;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x76F4;&#x5230; count &#x548C;&#x7A97;&#x53E3;&#x957F;&#x5EA6;&#x76F8;&#x7B49;&#x5373;&#x53EF;&#x66F4;&#x65B0;&#x7B54;&#x6848;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> List&lt;Integer&gt; <span class="hljs-title">findAnagrams</span><span class="hljs-params">(String s, String p)</span> </span>{
+    <span class="hljs-keyword">if</span> (s.length() &lt; p.length()) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> ArrayList&lt;Integer&gt;();
+    }
+
+    <span class="hljs-keyword">char</span>[] sArr = s.toCharArray();
+    <span class="hljs-keyword">char</span>[] pArr = p.toCharArray();
+
+    <span class="hljs-keyword">int</span>[] hash = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">26</span>];
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; pArr.length; ++i) {
+        hash[pArr[i] - <span class="hljs-string">&apos;a&apos;</span>]++;
+    }
+
+    List&lt;Integer&gt; results = <span class="hljs-keyword">new</span> ArrayList&lt;&gt;();
+
+    <span class="hljs-keyword">int</span> l = <span class="hljs-number">0</span>, count = <span class="hljs-number">0</span>, pLength = p.length();
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> r = <span class="hljs-number">0</span>; r &lt; sArr.length; ++r) {
+        hash[sArr[r] - <span class="hljs-string">&apos;a&apos;</span>]--;
+
+        <span class="hljs-keyword">if</span> (hash[sArr[r] - <span class="hljs-string">&apos;a&apos;</span>] &gt;= <span class="hljs-number">0</span>) {
+            count++;
+        }
+
+        <span class="hljs-keyword">if</span> (r &gt; pLength - <span class="hljs-number">1</span>) {
+            hash[sArr[l] - <span class="hljs-string">&apos;a&apos;</span>]++;
+
+            <span class="hljs-keyword">if</span> (hash[sArr[l] - <span class="hljs-string">&apos;a&apos;</span>] &gt; <span class="hljs-number">0</span>) {
+                count--;
+            }
+
+            l++;
+        }
+
+        <span class="hljs-keyword">if</span> (count == pLength) {
+            results.add(l);
+        }
+    }
+
+    <span class="hljs-keyword">return</span> results;
+}
+</code></pre>
+<p><br></p>
+<p><a href="https://leetcode.com/problems/minimum-window-substring/" target="_blank">76. Minimum Window Substring</a></p>
+<p>&#x540C;&#x6837;&#x662F;&#x4E24;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#x95EE;&#x9898;&#xFF0C;&#x56E0;&#x4E3A;&#x9898;&#x76EE;&#x6C42;&#x7684;&#x6700;&#x5C0F;&#x5B50;&#x4E32;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x7A97;&#x53E3;&#x7684;&#x6700;&#x5C0F;&#x957F;&#x5EA6;&#xFF0C;&#x8BF4;&#x660E;&#x8FD9;&#x91CC;&#x7684;&#x7A97;&#x53E3;&#x5927;&#x5C0F;&#x662F;&#x53EF;&#x53D8;&#x7684;&#xFF0C;&#x8FD9;&#x91CC;&#x79FB;&#x52A8;&#x5DE6;&#x6307;&#x9488;&#x7684;&#x6761;&#x4EF6;&#x53D8;&#x6210;&#xFF0C;&#x53EA;&#x8981;&#x5DE6;&#x6307;&#x9488;&#x6307;&#x5411;&#x4E0D;&#x9700;&#x8981;&#x7684;&#x5B57;&#x7B26;&#xFF0C;&#x5C31;&#x8FDB;&#x884C;&#x79FB;&#x52A8;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> String <span class="hljs-title">minWindow</span><span class="hljs-params">(String s, String t)</span> </span>{
+    <span class="hljs-keyword">if</span> (s.length() &lt; t.length()) {
+        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;&quot;</span>;
+    }
+
+    <span class="hljs-keyword">char</span>[] sArr = s.toCharArray();
+    <span class="hljs-keyword">char</span>[] tArr = t.toCharArray();
+
+    <span class="hljs-keyword">int</span>[] hash = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">256</span>];
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; tArr.length; ++i) {
+        hash[tArr[i]]++;
+    }
+
+    <span class="hljs-keyword">int</span> l = <span class="hljs-number">0</span>, count = tArr.length, max = s.length() + <span class="hljs-number">1</span>;
+    String result = <span class="hljs-string">&quot;&quot;</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> r = <span class="hljs-number">0</span>; r &lt; sArr.length; ++r) {
+        hash[sArr[r]]--;
+
+        <span class="hljs-keyword">if</span> (hash[sArr[r]] &gt;= <span class="hljs-number">0</span>) {
+            count--;
+        }
+
+        <span class="hljs-keyword">while</span> (l &lt; r &amp;&amp; hash[sArr[l]] &lt; <span class="hljs-number">0</span>) {
+            hash[sArr[l]]++;
+            l++;
+        }
+
+        <span class="hljs-keyword">if</span> (count == <span class="hljs-number">0</span> &amp;&amp; max &gt; r - l + <span class="hljs-number">1</span>) {
+            max = r - l + <span class="hljs-number">1</span>;
+            result = s.substring(l, r + <span class="hljs-number">1</span>);
+        }
+    }
+
+    <span class="hljs-keyword">return</span> result;
+}
+</code></pre>
+<p><br></p>
+<p><a href="https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/" target="_blank">159. Longest Substring with At Most Two Distinct Characters</a></p>
+<p>&#x8FD9;&#x9898;&#x7A97;&#x53E3;&#x5927;&#x5C0F;&#x8FD8;&#x662F;&#x53D8;&#x5316;&#x7684;&#xFF0C;&#x91CD;&#x70B9;&#x8FD8;&#x662F;&#x5728;&#x4F55;&#x65F6;&#x66F4;&#x65B0;&#x5DE6;&#x6307;&#x9488;&#x3002;&#x8FD9;&#x91CC;&#x7684; count &#x53EF;&#x4EE5;&#x7528;&#x6765;&#x8BB0;&#x5F55;&#x5F53;&#x524D;&#x6709;&#x591A;&#x5C11;&#x79CD;&#x4E0D;&#x540C;&#x7684;&#x5B57;&#x7B26;&#xFF0C;&#x53EA;&#x8981;&#x5F53;&#x524D;&#x8FDB;&#x5165;&#x7A97;&#x53E3;&#x7684;&#x5B57;&#x7B26;&#x4F7F; count &#x4E0D;&#x6EE1;&#x8DB3;&#x9898;&#x76EE;&#x6761;&#x4EF6;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x79FB;&#x52A8;&#x5DE6;&#x6307;&#x9488;&#x8BA9; count &#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x3002;&#x8FD9;&#x91CC; result &#x521D;&#x59CB;&#x5316;&#x4E3A; 1&#xFF0C;&#x56E0;&#x4E3A;&#x53EA;&#x8981;&#x8F93;&#x5165;&#x7684;&#x5B57;&#x4E32;&#x4E0D;&#x662F;&#x7A7A;&#x7684;&#xFF0C;&#x7A97;&#x53E3;&#x5927;&#x5C0F;&#x4E0D;&#x53EF;&#x80FD;&#x5C0F;&#x4E8E; 1&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">lengthOfLongestSubstringTwoDistinct</span><span class="hljs-params">(String s)</span> </span>{
+    <span class="hljs-keyword">if</span> (s == <span class="hljs-keyword">null</span> || s.length() == <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+    }
+
+    <span class="hljs-keyword">char</span>[] sArr = s.toCharArray();
+
+    <span class="hljs-keyword">int</span>[] hash = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">256</span>];
+
+    <span class="hljs-keyword">int</span> l = <span class="hljs-number">0</span>, count = <span class="hljs-number">0</span>, result = <span class="hljs-number">1</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> r = <span class="hljs-number">0</span>; r &lt; sArr.length; ++r) {
+        hash[sArr[r]]++;
+
+        <span class="hljs-keyword">if</span> (hash[sArr[r]] == <span class="hljs-number">1</span>) {
+            count++;
+        }
+
+        <span class="hljs-keyword">while</span> (count &gt; <span class="hljs-number">2</span>) {
+            hash[sArr[l]]--;
+
+            <span class="hljs-keyword">if</span> (hash[sArr[l]] == <span class="hljs-number">0</span>) {
+                count--;
+            }
+
+            l++;
+        }
+
+        result = Math.max(result, r - l + <span class="hljs-number">1</span>);
+    }
+
+    <span class="hljs-keyword">return</span> result;
+}
+</code></pre>
+<p><br></p>
+<p><a href="https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/" target="_blank">340. Longest Substring with At Most K Distinct Characters</a></p>
+<p>&#x548C;&#x4E0A;&#x9898;&#x4E00;&#x6837;&#xFF0C;&#x628A; 2 &#x53D8;&#x6210; k &#x5373;&#x53EF;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">lengthOfLongestSubstringKDistinct</span><span class="hljs-params">(String s, <span class="hljs-keyword">int</span> k)</span> </span>{
+    <span class="hljs-keyword">if</span> (s == <span class="hljs-keyword">null</span> || s.length() == <span class="hljs-number">0</span> || k == <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+    }
+
+    <span class="hljs-keyword">char</span>[] sArr = s.toCharArray();
+
+    <span class="hljs-keyword">int</span>[] hash = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">256</span>];
+
+    <span class="hljs-keyword">int</span> l = <span class="hljs-number">0</span>, count = <span class="hljs-number">0</span>, result = <span class="hljs-number">1</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> r = <span class="hljs-number">0</span>; r &lt; sArr.length; ++r) {
+        hash[sArr[r]]++;
+
+        <span class="hljs-keyword">if</span> (hash[sArr[r]] == <span class="hljs-number">1</span>) {
+            count++;
+        }
+
+        <span class="hljs-keyword">while</span> (count &gt; k) {
+            hash[sArr[l]]--;
+
+            <span class="hljs-keyword">if</span> (hash[sArr[l]] == <span class="hljs-number">0</span>) {
+                count--;
+            }
+
+            l++;
+        }
+
+        result = Math.max(result, r - l + <span class="hljs-number">1</span>);
+    }
+
+    <span class="hljs-keyword">return</span> result;
+}
+</code></pre>
+<p><br></p>
+<p><a href="https://leetcode.com/problems/longest-substring-without-repeating-characters/" target="_blank">3. Longest Substring Without Repeating Characters</a></p>
+<p>&#x8F93;&#x5165;&#x53EA;&#x6709;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#xFF0C;&#x8981;&#x6C42;&#x5B50;&#x4E32;&#x91CC;&#x9762;&#x4E0D;&#x80FD;&#x591F;&#x6709;&#x91CD;&#x590D;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x8FD9;&#x91CC; count &#x90FD;&#x4E0D;&#x9700;&#x8981;&#x5B9A;&#x4E49;&#xFF0C;&#x76F4;&#x63A5;&#x5224;&#x65AD;&#x54C8;&#x5E0C;&#x6563;&#x5217;&#x91CC;&#x9762;&#x7684;&#x5143;&#x7D20;&#x662F;&#x4E0D;&#x662F;&#x5728;&#x7A97;&#x53E3;&#x5185;&#x5373;&#x53EF;&#xFF0C;&#x662F;&#x7684;&#x8BDD;&#x5F97;&#x79FB;&#x52A8;&#x5DE6;&#x6307;&#x9488;&#x53BB;&#x91CD;&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">lengthOfLongestSubstring</span><span class="hljs-params">(String s)</span> </span>{
+    <span class="hljs-keyword">if</span> (s == <span class="hljs-keyword">null</span> || s.length() == <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+    }
+
+    <span class="hljs-keyword">char</span>[] sArr = s.toCharArray();
+    <span class="hljs-keyword">int</span>[] hash = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">256</span>];
+
+    <span class="hljs-keyword">int</span> l = <span class="hljs-number">0</span>, result = <span class="hljs-number">1</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> r = <span class="hljs-number">0</span>; r &lt; sArr.length; ++r) {
+        hash[sArr[r]]++;
+
+        <span class="hljs-keyword">while</span> (hash[sArr[r]] != <span class="hljs-number">1</span>) {
+            hash[sArr[l]]--;
+            l++;
+        }
+
+        result = Math.max(result, r - l + <span class="hljs-number">1</span>);
+    }
+
+    <span class="hljs-keyword">return</span> result;
+}
+</code></pre>
+<p><br></p>
+<p><a href="https://leetcode.com/problems/permutation-in-string/" target="_blank">567. Permutation in String</a></p>
+<p>&#x548C; 438 &#x90A3;&#x9898;&#x5F88;&#x7C7B;&#x4F3C;&#xFF0C;&#x4F46;&#x662F;&#x8FD9;&#x91CC;&#x4E0D;&#x9700;&#x8981;&#x8BB0;&#x5F55;&#x7B54;&#x6848;&#x4E86;&#xFF0C;&#x6709;&#x5C31;&#x76F4;&#x63A5;&#x8FD4;&#x56DE; true&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">boolean</span> <span class="hljs-title">checkInclusion</span><span class="hljs-params">(String s1, String s2)</span> </span>{
+    <span class="hljs-keyword">if</span> (s1.length() &gt; s2.length()) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">false</span>;
+    }
+
+    <span class="hljs-keyword">char</span>[] s1Arr = s1.toCharArray();
+    <span class="hljs-keyword">char</span>[] s2Arr = s2.toCharArray();
+
+    <span class="hljs-keyword">int</span>[] hash = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">26</span>];
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; s1Arr.length; ++i) {
+        hash[s1Arr[i] - <span class="hljs-string">&apos;a&apos;</span>]++;
+    }
+
+    <span class="hljs-keyword">int</span> l = <span class="hljs-number">0</span>, count = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> r = <span class="hljs-number">0</span>; r &lt; s2Arr.length; ++r) {
+        hash[s2Arr[r] - <span class="hljs-string">&apos;a&apos;</span>]--;
+
+        <span class="hljs-keyword">if</span> (hash[s2Arr[r] - <span class="hljs-string">&apos;a&apos;</span>] &gt;= <span class="hljs-number">0</span>) {
+            count++;
+        }
+
+        <span class="hljs-keyword">if</span> (r &gt;= s1Arr.length) {
+            hash[s2Arr[l] - <span class="hljs-string">&apos;a&apos;</span>]++;
+
+            <span class="hljs-keyword">if</span> (hash[s2Arr[l] - <span class="hljs-string">&apos;a&apos;</span>] &gt;= <span class="hljs-number">1</span>) {
+                count--;
+            }
+
+            l++;
+        }
+
+        <span class="hljs-keyword">if</span> (count == s1Arr.length) {
+            <span class="hljs-keyword">return</span> <span class="hljs-keyword">true</span>;
+        }
+    }
+
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">false</span>;
+}
+</code></pre>
+<p><br></p>
+<p><a href="https://leetcode.com/problems/subarrays-with-k-different-integers/" target="_blank">992. Subarrays with K Different Integers</a></p>
+<p>&#x770B;&#x5B8C;&#x4E86;&#x5B57;&#x7B26;&#x4E32;&#x7C7B;&#x578B;&#x7684;&#x9898;&#x76EE;&#xFF0C;&#x8FD9;&#x6B21;&#x6765;&#x770B;&#x770B;&#x6570;&#x7EC4;&#x7C7B;&#x578B;&#x7684;&#xFF0C;&#x9898;&#x76EE;&#x4E2D;&#x7684; subarray &#x5DF2;&#x7ECF;&#x660E;&#x786E;&#x4E86;&#x8FD9;&#x4E2A;&#x9898;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x7528;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#xFF0C;&#x8FD9;&#x9898;&#x6BD4;&#x8F83; trick &#x7684;&#x4E00;&#x4E2A;&#x5730;&#x65B9;&#x5728;&#x4E8E;&#xFF0C;&#x8FD9;&#x91CC;&#x4E0D;&#x662F;&#x6C42;&#x6700;&#x5C0F;&#x503C;&#x6700;&#x5927;&#x503C;&#xFF0C;&#x800C;&#x662F;&#x8981;&#x4F60;&#x8BA1;&#x6570;&#xFF0C;&#x4F46;&#x662F;&#x5982;&#x679C;&#x6BCF;&#x6B21;&#x4EC5;&#x4EC5;&#x52A0; 1 &#x7684;&#x8BDD;&#x53C8;&#x4E0D;&#x592A;&#x5BF9;&#xFF0C;&#x4F8B;&#x5982; <code>A = [1,2,1,2,3],  K = 2</code> &#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;&#xFF0C;&#x5047;&#x5982;&#x53F3;&#x6307;&#x9488;&#x79FB;&#x5230; index &#x4E3A; 3 &#x7684;&#x4F4D;&#x7F6E;&#xFF0C;&#x5982;&#x679C;&#x6309;&#x4E4B;&#x524D;&#x7684;&#x601D;&#x8DEF;&#x5DE6;&#x6307;&#x9488;&#x6839;&#x636E; count &#x6765;&#x79FB;&#x52A8;&#xFF0C;&#x5F53;&#x524D;&#x7A97;&#x53E3;&#x662F; <code>[1,2,1,2]</code>&#xFF0C;&#x4F46;&#x662F;&#x600E;&#x4E48;&#x628A; <code>[2,1]</code> &#x7ED9;&#x8003;&#x8651;&#x8FDB;&#x53BB;&#x5462;&#xFF1F;&#x53EF;&#x4EE5;&#x4ECE;&#x6570;&#x7EC4;&#x548C;&#x5B50;&#x6570;&#x7EC4;&#x7684;&#x5173;&#x7CFB;&#x6765;&#x601D;&#x8003;&#xFF0C;&#x5047;&#x5982; <code>[1,2,1,2]</code> &#x662F;&#x7B26;&#x5408;&#x6761;&#x4EF6;&#x7684;&#x6570;&#x7EC4;&#xFF0C;&#x5982;&#x679C;&#x8981;&#x8BA1;&#x6570;&#x7684;&#x8BDD;&#xFF0C;<code>[1,2,1,2]</code> &#x8981;&#x6C42;&#x7684;&#x7ED3;&#x679C;&#x662F;&#x5426;&#x548C; <code>[1,2,1]</code> &#x7684;&#x7ED3;&#x679C;&#x5B58;&#x5728;&#x8054;&#x7CFB;&#xFF1F;&#x8FD9;&#x4E24;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x533A;&#x522B;&#x5728;&#x4E8E;&#x591A;&#x4E86;&#x4E00;&#x4E2A;&#x65B0;&#x8FDB;&#x6765;&#x7684;&#x5143;&#x7D20;&#xFF0C;&#x4E4B;&#x524D;&#x5B50;&#x6570;&#x7EC4;&#x8BA1;&#x6570;&#x6CA1;&#x8003;&#x8651;&#x5230;&#x8FD9;&#x4E2A;&#x5143;&#x7D20;&#xFF0C;&#x5047;&#x5982;&#x628A;&#x8FD9;&#x4E2A;&#x5143;&#x7D20;&#x653E;&#x5230;&#x4E4B;&#x524D;&#x7B26;&#x5408;&#x6761;&#x4EF6;&#x7684;&#x5B50;&#x6570;&#x7EC4;&#x4E2D;&#x7EC4;&#x6210;&#x7684;&#x65B0;&#x6570;&#x7EC4;&#x4E5F;&#x662F;&#x7B26;&#x5408;&#x6761;&#x4EF6;&#x7684;&#xFF0C;&#x6211;&#x4EEC;&#x770B;&#x770B;&#x8FD9;&#x4E2A;&#x4F8B;&#x5B50;&#x4E2D;&#x6240;&#x6709;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x7684;&#x7A97;&#x53E3;&#x4EE5;&#x53CA;&#x5BF9;&#x5E94;&#x7684;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x7684;&#x5B50;&#x6570;&#x7EC4;&#x60C5;&#x51B5;&#xFF1A;</p>
+<pre><code>[1,2,1,2,3]  // &#x7A97;&#x53E3;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;
+ l r         // &#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x7684;&#x5B50;&#x6570;&#x7EC4; [1,2]
+
+[1,2,1,2,3]  // &#x7A97;&#x53E3;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;
+ l   r       // &#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x7684;&#x5B50;&#x6570;&#x7EC4; [1,2],[2,1],[1,2,1]
+
+[1,2,1,2,3]  // &#x7A97;&#x53E3;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;
+ l     r     // &#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x7684;&#x5B50;&#x6570;&#x7EC4; [1,2],[2,1],[1,2,1],[1,2],[2,1,2],[1,2,1,2]
+
+[1,2,1,2,3]  // &#x7A97;&#x53E3;&#x4E0D;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#xFF0C;&#x79FB;&#x52A8;&#x5DE6;&#x6307;&#x9488;&#x81F3;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;
+ l       r   
+
+[1,2,1,2,3]  // &#x7A97;&#x53E3;&#x6EE1;&#x8DB3;&#x6761;&#x4EF6;
+       l r   // &#x6EE1;&#x8DB3;&#x6761;&#x4EF6;&#x7684;&#x5B50;&#x6570;&#x7EC4; [1,2],[2,1],[1,2,1],[1,2],[2,1,2],[1,2,1,2],[2,3]
+</code></pre><p>&#x4F60;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x5BF9;&#x4E8E;&#x4E00;&#x6BB5;&#x8FDE;&#x7EED;&#x7684;&#x6570;&#x7EC4;&#xFF0C;&#x65B0;&#x7684;&#x5143;&#x7D20;&#x8FDB;&#x6765;&#xFF0C;&#x7A97;&#x53E3;&#x589E;&#x52A0; 1&#xFF0C;&#x6BCF;&#x6B21;&#x7684;&#x589E;&#x91CF;&#x90FD;&#x4F1A;&#x5728;&#x524D;&#x4E00;&#x6B21;&#x589E;&#x91CF;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#x52A0; 1&#x3002;&#x5F53;&#x65B0;&#x7684;&#x5143;&#x7D20;&#x8FDB;&#x6765;&#x6253;&#x7834;&#x5F53;&#x524D;&#x6761;&#x4EF6;&#x4F1A;&#x4F7F;&#x8FD9;&#x4E2A;&#x589E;&#x91CF;&#x4ECE;&#x65B0;&#x56DE;&#x5230; 1&#xFF0C;&#x8FD9;&#x6837;&#x6211;&#x4EEC;&#x5DE6;&#x6307;&#x9488;&#x79FB;&#x52A8;&#x6761;&#x4EF6;&#x5C31;&#x662F;&#x53EA;&#x8981;&#x662F;&#x79FB;&#x52A8;&#x4E0D;&#x4F1A;&#x6539;&#x53D8;&#x6761;&#x4EF6;&#xFF0C;&#x5C31;&#x79FB;&#x52A8;&#xFF0C;&#x4E0D;&#x7136;&#x5C31;&#x505C;&#x6B62;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">subarraysWithKDistinct</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] A, <span class="hljs-keyword">int</span> K)</span> </span>{
+    <span class="hljs-keyword">if</span> (A == <span class="hljs-keyword">null</span> || A.length &lt; K) {
+        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+    }
+
+    <span class="hljs-keyword">int</span>[] hash = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[A.length + <span class="hljs-number">1</span>];
+
+    <span class="hljs-keyword">int</span> l = <span class="hljs-number">0</span>, results = <span class="hljs-number">0</span>, count = <span class="hljs-number">0</span>, result = <span class="hljs-number">1</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> r = <span class="hljs-number">0</span>; r &lt; A.length; ++r) {
+        hash[A[r]]++;
+
+        <span class="hljs-keyword">if</span> (hash[A[r]] == <span class="hljs-number">1</span>) {
+            count++;
+        }
+
+        <span class="hljs-keyword">while</span> (hash[A[l]] &gt; <span class="hljs-number">1</span> || count &gt; K) {
+            <span class="hljs-keyword">if</span> (count &gt; K) {
+                result = <span class="hljs-number">1</span>;
+                count--;
+            } <span class="hljs-keyword">else</span> {
+                result++;
+            }
+            hash[A[l]]--;
+            l++;
+        }
+
+        <span class="hljs-keyword">if</span> (count == K) {
+            results += result;
+        }
+    }
+
+    <span class="hljs-keyword">return</span> results;
+}
+</code></pre>
+<p><br></p>
+<p><a href="https://leetcode.com/problems/longest-repeating-character-replacement/" target="_blank">424. Longest Repeating Character Replacement</a></p>
+<p>&#x8FD9;&#x9053;&#x9898;&#x60F3; accept &#x7684;&#x8BDD;&#x4E0D;&#x96BE;&#xFF0C;&#x4F46;&#x662F;&#x95EE;&#x9898;&#x5728;&#x4E8E;&#x600E;&#x4E48;&#x77E5;&#x9053;&#x5F53;&#x524D;&#x7A97;&#x53E3;&#x4E2D;&#x6570;&#x91CF;&#x6700;&#x591A;&#x7684;&#x5B57;&#x7B26;&#x7684;&#x6570;&#x91CF;&#xFF0C;&#x56E0;&#x4E3A;&#x9700;&#x8981;&#x66FF;&#x6362;&#x7684;&#x5B57;&#x7B26;&#x5C31;&#x662F;&#x5F53;&#x524D;&#x7A97;&#x53E3;&#x7684;&#x5927;&#x5C0F;&#x51CF;&#x53BB;&#x7A97;&#x53E3;&#x4E2D;&#x6570;&#x91CF;&#x6700;&#x591A;&#x7684;&#x5B57;&#x7B26;&#x7684;&#x6570;&#x91CF;&#x3002;&#x6700;&#x7B80;&#x5355;&#x7684;&#x65B9;&#x6CD5;&#x5C31;&#x662F;&#x628A;&#x54C8;&#x5E0C;&#x6563;&#x5217;&#x904D;&#x5386;&#x4E00;&#x8FB9;&#x627E;&#x5230;&#x6700;&#x5927;&#x7684;&#x5B57;&#x7B26;&#x6570;&#x91CF;&#xFF0C;&#x4F46;&#x662F;&#x4ED4;&#x7EC6;&#x60F3;&#x60F3;&#x5982;&#x679C;&#x6211;&#x4EEC;&#x6BCF;&#x6B21;&#x65B0;&#x8FDB;&#x5143;&#x7D20;&#x90FD;&#x66F4;&#x65B0;&#x8FD9;&#x4E2A;&#x6700;&#x5927;&#x6570;&#x91CF;&#xFF0C;&#x4E14;&#x53EA;&#x66F4;&#x65B0;&#x4E00;&#x6B21;&#xFF0C;&#x6211;&#x4EEC;&#x4FDD;&#x5B58;&#x7684;&#x662F;&#x5F53;&#x524D;&#x904D;&#x5386;&#x8FC7;&#x7684;&#x5168;&#x5C40;&#x7684;&#x6700;&#x5927;&#x503C;&#xFF0C;&#x5B83;&#x80AF;&#x5B9A;&#x662F;&#x6BD4;&#x5B9E;&#x9645;&#x7684;&#x6700;&#x5927;&#x503C;&#x5927;&#x7684;&#xFF0C;&#x6211;&#x4EEC;&#x5DE6;&#x6307;&#x9488;&#x79FB;&#x52A8;&#x7684;&#x6761;&#x4EF6;&#x662F; <code>r - l + 1 - maxCount &gt; k</code>&#xFF0C;&#x4FDD;&#x5B58;&#x7684;&#x7ED3;&#x679C;&#x662F; <code>result = Math.max(r - l + 1, result);</code> &#x8FD9;&#x91CC; maxCount &#x6BD4;&#x5B9E;&#x9645;&#x504F;&#x5927;&#x7684;&#x8BDD;&#xFF0C;&#x867D;&#x7136;&#x5BFC;&#x81F4;&#x5DE6;&#x6307;&#x9488;&#x4E0D;&#x80FD;&#x79FB;&#x52A8;&#xFF0C;&#x4F46;&#x662F;&#x4E0D;&#x4F1A;&#x8BB0;&#x5F55;&#x5F53;&#x524D;&#x7684;&#x7ED3;&#x679C;&#xFF0C;&#x6240;&#x4EE5;&#x6700;&#x540E;&#x7684;&#x7B54;&#x6848;&#x5E76;&#x4E0D;&#x4F1A;&#x53D7;&#x5F71;&#x54CD;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">characterReplacement</span><span class="hljs-params">(String s, <span class="hljs-keyword">int</span> k)</span> </span>{
+    <span class="hljs-keyword">if</span> (s == <span class="hljs-keyword">null</span> || s.length() == <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
+    }
+
+    <span class="hljs-keyword">char</span>[] sArr = s.toCharArray();
+
+    <span class="hljs-keyword">int</span>[] hash = <span class="hljs-keyword">new</span> <span class="hljs-keyword">int</span>[<span class="hljs-number">26</span>];
+
+    <span class="hljs-keyword">int</span> l = <span class="hljs-number">0</span>, maxCount = <span class="hljs-number">0</span>, result = <span class="hljs-number">0</span>;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> r = <span class="hljs-number">0</span>; r &lt; sArr.length; ++r) {
+        hash[sArr[r] - <span class="hljs-string">&apos;A&apos;</span>]++;
+
+        maxCount = Math.max(maxCount, hash[sArr[r] - <span class="hljs-string">&apos;A&apos;</span>]);
+
+        <span class="hljs-keyword">while</span> (r - l + <span class="hljs-number">1</span> - maxCount &gt; k) {
+            hash[sArr[l] - <span class="hljs-string">&apos;A&apos;</span>]--;
+            l++;
+        }
+
+        result = Math.max(r - l + <span class="hljs-number">1</span>, result);
+    }
+
+    <span class="hljs-keyword">return</span> result;
+}
+</code></pre>
+<p><br></p>
+<p><strong>&#x5176;&#x4ED6;&#x9898;&#x578B;</strong><br></p>
+<p><a href="https://leetcode.com/problems/sliding-window-maximum/" target="_blank">239. Sliding Window Maximum</a></p>
+<p>&#x53EF;&#x4EE5;&#x53C2;&#x8003;&#x6211;&#x4E4B;&#x524D;&#x5199;&#x7684; Arts &#x7684;&#x7B97;&#x6CD5;&#x90E8;&#x5206; -&gt; <a href="https://juejin.im/post/5c9e72d7f265da30851f956b" target="_blank">Arts &#x7B2C;&#x4E09;&#x5468;</a></p>
+<p><br></p>
+<p><a href="https://leetcode.com/problems/sliding-window-median/" target="_blank">480. Sliding Window Median
+</a></p>
+<p>&#x6C42;&#x4E2D;&#x503C;&#x7684;&#x95EE;&#x9898;&#x6BD4;&#x8F83;&#x7279;&#x6B8A;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x4E71;&#x5E8F;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x6700;&#x597D;&#x5C31;&#x662F;&#x501F;&#x52A9;&#x5806;&#xFF0C;&#x5229;&#x7528;&#x4E24;&#x4E2A;&#x5806;&#xFF0C;&#x4E00;&#x4E2A;&#x5927;&#x9876;&#xFF0C;&#x4E00;&#x4E2A;&#x5C0F;&#x9876;&#xFF0C;&#x5E76;&#x4E14;&#x4FDD;&#x8BC1;&#x4E24;&#x4E2A;&#x5806;&#x5185;&#x5B58;&#x653E;&#x7684;&#x6570;&#x76EE;&#x76F8;&#x5DEE;&#x4E0D;&#x8D85;&#x8FC7; 1&#xFF0C;&#x8FD9;&#x6837;&#x5982;&#x679C;&#x5F53;&#x524D;&#x5143;&#x7D20;&#x6570;&#x76EE;&#x662F;&#x5076;&#x6570;&#xFF0C;&#x4E24;&#x4E2A;&#x5806;&#x9876;&#x5143;&#x7D20;&#x7684;&#x5747;&#x503C;&#x5C31;&#x662F;&#x7ED3;&#x679C;&#xFF0C;&#x5982;&#x679C;&#x662F;&#x5947;&#x6570;&#xFF0C;&#x5B58;&#x653E;&#x5143;&#x7D20;&#x591A;&#x7684;&#x90A3;&#x4E2A;&#x5806;&#x7684;&#x5806;&#x9876;&#x5143;&#x7D20;&#x5C31;&#x662F;&#x7ED3;&#x679C;&#x3002;</p>
+<pre><code class="lang-java"><span class="hljs-keyword">public</span> <span class="hljs-keyword">double</span>[] medianSlidingWindow(<span class="hljs-keyword">int</span>[] nums, <span class="hljs-keyword">int</span> k) {
+    <span class="hljs-keyword">if</span> (nums == <span class="hljs-keyword">null</span> || nums.length &lt; k ) {
+        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-keyword">double</span>[<span class="hljs-number">0</span>];
+    }
+
+    <span class="hljs-keyword">double</span>[] results = <span class="hljs-keyword">new</span> <span class="hljs-keyword">double</span>[nums.length - k + <span class="hljs-number">1</span>];
+
+    PriorityQueue&lt;Integer&gt; minHeap = <span class="hljs-keyword">new</span> PriorityQueue&lt;&gt;();
+
+    PriorityQueue&lt;Integer&gt; maxHeap = <span class="hljs-keyword">new</span> PriorityQueue&lt;&gt;(Collections.reverseOrder());
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; nums.length; ++i) {
+        <span class="hljs-comment">// add current element into queue</span>
+        maxHeap.offer(nums[i]);
+        minHeap.offer(maxHeap.poll());
+
+        <span class="hljs-keyword">if</span> (minHeap.size() &gt; maxHeap.size()) {
+            maxHeap.offer(minHeap.poll());
+        }
+
+        <span class="hljs-comment">// record answer</span>
+        <span class="hljs-keyword">if</span> (i &gt;= k - <span class="hljs-number">1</span>) {
+            results[i - k + <span class="hljs-number">1</span>] = minHeap.size() &lt; maxHeap.size() 
+                    ? maxHeap.peek() : ((<span class="hljs-keyword">long</span>)maxHeap.peek() + minHeap.peek()) * <span class="hljs-number">0.5</span>;
+
+            <span class="hljs-keyword">if</span> (maxHeap.contains(nums[i - k + <span class="hljs-number">1</span>])) {
+                maxHeap.remove(nums[i - k + <span class="hljs-number">1</span>]);
+            } <span class="hljs-keyword">else</span> {
+                minHeap.remove(nums[i - k + <span class="hljs-number">1</span>]);
+            }
+        }
+    }
+
+    <span class="hljs-keyword">return</span> results;
+}
+</code></pre>
+<p><br></p>
+<h2 id="&#x603B;&#x7ED3;">&#x603B;&#x7ED3;</h2>
+<p>&#x53CC;&#x6307;&#x9488;&#x7C7B;&#x7684;&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#x95EE;&#x9898;&#x601D;&#x7EF4;&#x590D;&#x6742;&#x5EA6;&#x5E76;&#x4E0D;&#x9AD8;&#xFF0C;&#x4F46;&#x662F;&#x51FA;&#x9519;&#x70B9;&#x5F80;&#x5F80;&#x5728;&#x7EC6;&#x8282;&#x3002;&#x8BB0;&#x5FC6;&#x5E38;&#x7528;&#x7684;&#x89E3;&#x9898;&#x6A21;&#x7248;&#x8FD8;&#x662F;&#x5F88;&#x6709;&#x5FC5;&#x8981;&#x7684;&#xFF0C;&#x7279;&#x522B;&#x662F;&#x5BF9;&#x4E8E;&#x8FD9;&#x79CD;&#x53D8;&#x91CF;&#x540D;&#x591A;&#xFF0C;&#x5BB9;&#x6613;&#x6DF7;&#x6DC6;&#x7684;&#x9898;&#x578B;&#x3002;&#x6709;&#x4E86;&#x8FD9;&#x4E2A;&#x6846;&#x67B6;&#xFF0C;&#x601D;&#x8003;&#x7684;&#x70B9;&#x5C31;&#x8F6C;&#x5316;&#x4E3A; &#x201C;&#x4EC0;&#x4E48;&#x6761;&#x4EF6;&#x4E0B;&#x79FB;&#x52A8;&#x5DE6;&#x6307;&#x9488;&#x201D;&#xFF0C;&#x65E0;&#x5173;&#x4FE1;&#x606F;&#x5C11;&#x4E86;&#xFF0C;&#x601D;&#x8003;&#x52A0;&#x5B9E;&#x73B0;&#x81EA;&#x7136;&#x4E0D;&#x662F;&#x95EE;&#x9898;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="Arts-007.html" class="navigation navigation-prev " aria-label="Previous page: Week 7">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../week008/Arts-008.html" class="navigation navigation-next " aria-label="Next page: Week 8">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"LeetCode滑动窗口（SlidingWindow）类问题总结","level":"1.8.1","depth":2,"next":{"title":"Week 8","level":"1.9","depth":1,"path":"week008/Arts-008.md","ref":"./week008/Arts-008.md","articles":[{"title":"LeetCode312BurstBalloons思路分析总结","level":"1.9.1","depth":2,"path":"week008/LeetCode312BurstBalloons思路分析总结.md","ref":"./week008/LeetCode312BurstBalloons思路分析总结.md","articles":[{"title":"谈谈学习编程过程中的意识误区","level":"1.9.1.1","depth":3,"path":"week008/谈谈学习编程过程中的意识误区.md","ref":"./week008/谈谈学习编程过程中的意识误区.md","articles":[]}]}]},"previous":{"title":"Week 7","level":"1.8","depth":1,"path":"week007/Arts-007.md","ref":"./week007/Arts-007.md","articles":[{"title":"LeetCode滑动窗口（SlidingWindow）类问题总结","level":"1.8.1","depth":2,"path":"week007/LeetCode滑动窗口（SlidingWindow）类问题总结.md","ref":"./week007/LeetCode滑动窗口（SlidingWindow）类问题总结.md","articles":[]}]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"week007/LeetCode滑动窗口（SlidingWindow）类问题总结.md","mtime":"2019-07-15T05:42:24.352Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-20T02:38:22.171Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

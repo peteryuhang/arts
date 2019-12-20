@@ -1,0 +1,1520 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Week 7 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="LeetCode滑动窗口（SlidingWindow）类问题总结.html" />
+    
+    
+    <link rel="prev" href="../week006/股票问题汇总.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../week001/Arts-001.html">
+            
+                <a href="../week001/Arts-001.html">
+            
+                    
+                    Week 1
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../week001/位运算中异或的常见用法总结.html">
+            
+                <a href="../week001/位运算中异或的常见用法总结.html">
+            
+                    
+                    位运算中异或的常见用法总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../week002/Arts-002.html">
+            
+                <a href="../week002/Arts-002.html">
+            
+                    
+                    Week 2
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../week002/关于JavaScript函数传参的那点事.html">
+            
+                <a href="../week002/关于JavaScript函数传参的那点事.html">
+            
+                    
+                    关于JavaScript函数传参的那点事
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../week003/Arts-003.html">
+            
+                <a href="../week003/Arts-003.html">
+            
+                    
+                    Week 3
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../week003/常见背包问题解法分析.html">
+            
+                <a href="../week003/常见背包问题解法分析.html">
+            
+                    
+                    常见背包问题解法分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="../week004/Arts-004.html">
+            
+                <a href="../week004/Arts-004.html">
+            
+                    
+                    Week 4
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.1" data-path="../week004/写项目代码之前必须要做的事.html">
+            
+                <a href="../week004/写项目代码之前必须要做的事.html">
+            
+                    
+                    写项目代码之前必须要做的事
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../week005/Arts-005.html">
+            
+                <a href="../week005/Arts-005.html">
+            
+                    
+                    Week 5
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.6.1" data-path="../week005/利用位运算解决N皇后问题.html">
+            
+                <a href="../week005/利用位运算解决N皇后问题.html">
+            
+                    
+                    利用位运算解决N皇后问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6.2" data-path="../week005/关于面试，我这样看.html">
+            
+                <a href="../week005/关于面试，我这样看.html">
+            
+                    
+                    关于面试，我这样看
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.7" data-path="../week006/Arts-006.html">
+            
+                <a href="../week006/Arts-006.html">
+            
+                    
+                    Week 6
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.7.1" data-path="../week006/股票问题汇总.html">
+            
+                <a href="../week006/股票问题汇总.html">
+            
+                    
+                    股票问题汇总
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.8" data-path="Arts-007.html">
+            
+                <a href="Arts-007.html">
+            
+                    
+                    Week 7
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.8.1" data-path="LeetCode滑动窗口（SlidingWindow）类问题总结.html">
+            
+                <a href="LeetCode滑动窗口（SlidingWindow）类问题总结.html">
+            
+                    
+                    LeetCode滑动窗口（SlidingWindow）类问题总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.9" data-path="../week008/Arts-008.html">
+            
+                <a href="../week008/Arts-008.html">
+            
+                    
+                    Week 8
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1" data-path="../week008/LeetCode312BurstBalloons思路分析总结.html">
+            
+                <a href="../week008/LeetCode312BurstBalloons思路分析总结.html">
+            
+                    
+                    LeetCode312BurstBalloons思路分析总结
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.9.1.1" data-path="../week008/谈谈学习编程过程中的意识误区.html">
+            
+                <a href="../week008/谈谈学习编程过程中的意识误区.html">
+            
+                    
+                    谈谈学习编程过程中的意识误区
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.10" data-path="../week009/Arts-009.html">
+            
+                <a href="../week009/Arts-009.html">
+            
+                    
+                    Week 9
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.10.1" data-path="../week009/从简单二叉树问题重新来看深度优先搜索.html">
+            
+                <a href="../week009/从简单二叉树问题重新来看深度优先搜索.html">
+            
+                    
+                    从简单二叉树问题重新来看深度优先搜索
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.11" data-path="../week010/Arts-010.html">
+            
+                <a href="../week010/Arts-010.html">
+            
+                    
+                    Week 10
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.11.1" data-path="../week010/ARTS阶段性总结.html">
+            
+                <a href="../week010/ARTS阶段性总结.html">
+            
+                    
+                    ARTS阶段性总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.12" data-path="../week011/Arts-011.html">
+            
+                <a href="../week011/Arts-011.html">
+            
+                    
+                    Week 11
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.12.1" data-path="../week011/程序员需要了解的逻辑学思想.html">
+            
+                <a href="../week011/程序员需要了解的逻辑学思想.html">
+            
+                    
+                    程序员需要了解的逻辑学思想
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.13" data-path="../week012/Arts-012.html">
+            
+                <a href="../week012/Arts-012.html">
+            
+                    
+                    Week 12
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.13.1" data-path="../week012/学习中的典型思维误区总结.html">
+            
+                <a href="../week012/学习中的典型思维误区总结.html">
+            
+                    
+                    学习中的典型思维误区总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.14" data-path="../week013/Arts-013.html">
+            
+                <a href="../week013/Arts-013.html">
+            
+                    
+                    Week 13
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.14.1" data-path="../week013/拓扑排序原理和习题分析.html">
+            
+                <a href="../week013/拓扑排序原理和习题分析.html">
+            
+                    
+                    拓扑排序原理和习题分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.15" data-path="../week014/Arts-014.html">
+            
+                <a href="../week014/Arts-014.html">
+            
+                    
+                    Week 14
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.15.1" data-path="../week014/布隆过滤器原理和应用分析.html">
+            
+                <a href="../week014/布隆过滤器原理和应用分析.html">
+            
+                    
+                    布隆过滤器原理和应用分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.16" data-path="../week015/Arts-015.html">
+            
+                <a href="../week015/Arts-015.html">
+            
+                    
+                    Week 15
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.16.1" data-path="../week015/JavaScript中的对象（一）-对象的概念、模型、以及创建.html">
+            
+                <a href="../week015/JavaScript中的对象（一）-对象的概念、模型、以及创建.html">
+            
+                    
+                    JavaScript中的对象（一）-对象的概念、模型、以及创建
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.17" data-path="../week016/Arts-016.html">
+            
+                <a href="../week016/Arts-016.html">
+            
+                    
+                    Week 16
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.17.1" data-path="../week016/JavaScript中的对象(二">
+            
+                <span>
+            
+                    
+                    JavaScript中的对象(二)-继承与多态.md
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.18" data-path="../week017/Arts-017.html">
+            
+                <a href="../week017/Arts-017.html">
+            
+                    
+                    Week 17
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.18.1" data-path="../week017/关于质数你所应该知道的.html">
+            
+                <a href="../week017/关于质数你所应该知道的.html">
+            
+                    
+                    关于质数你所应该知道的
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.19" data-path="../week018/Arts-018.html">
+            
+                <a href="../week018/Arts-018.html">
+            
+                    
+                    Week 18
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.19.1" data-path="../week018/JavaScript中的闭包函数.html">
+            
+                <a href="../week018/JavaScript中的闭包函数.html">
+            
+                    
+                    JavaScript中的闭包函数
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.20" data-path="../week019/Arts-019.html">
+            
+                <a href="../week019/Arts-019.html">
+            
+                    
+                    Week 19
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.20.1" data-path="../week019/深度解析LC10.RegularExpressionMatching.html">
+            
+                <a href="../week019/深度解析LC10.RegularExpressionMatching.html">
+            
+                    
+                    深度解析LC10.RegularExpressionMatching
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.21" data-path="../week020/Arts-020.html">
+            
+                <a href="../week020/Arts-020.html">
+            
+                    
+                    Week 20
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.21.1" data-path="../week020/React初探.html">
+            
+                <a href="../week020/React初探.html">
+            
+                    
+                    React初探
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.22" data-path="../week021/Arts-021.html">
+            
+                <a href="../week021/Arts-021.html">
+            
+                    
+                    Week 21
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.22.1" data-path="../week021/二分查找模版、题型全面解析.html">
+            
+                <a href="../week021/二分查找模版、题型全面解析.html">
+            
+                    
+                    二分查找模版、题型全面解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.23" data-path="../week022/Arts-022.html">
+            
+                <a href="../week022/Arts-022.html">
+            
+                    
+                    Week 22
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.23.1" data-path="../week022/LeetCode二叉树问题总结.html">
+            
+                <a href="../week022/LeetCode二叉树问题总结.html">
+            
+                    
+                    LeetCode二叉树问题总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.24" data-path="../week023/Arts-023.html">
+            
+                <a href="../week023/Arts-023.html">
+            
+                    
+                    Week 23
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.24.1" data-path="../week023/广度优先搜索（BFS）总结分析.html">
+            
+                <a href="../week023/广度优先搜索（BFS）总结分析.html">
+            
+                    
+                    广度优先搜索（BFS）总结分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.25" data-path="../week024/Arts-024.html">
+            
+                <a href="../week024/Arts-024.html">
+            
+                    
+                    Week 24
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.26" data-path="../week025/Arts-025.html">
+            
+                <a href="../week025/Arts-025.html">
+            
+                    
+                    Week 25
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.27" data-path="../week026/Arts-026.html">
+            
+                <a href="../week026/Arts-026.html">
+            
+                    
+                    Week 26
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.27.1" data-path="../week026/TwoSum相关问题思路总结.html">
+            
+                <a href="../week026/TwoSum相关问题思路总结.html">
+            
+                    
+                    TwoSum相关问题思路总结
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.28" data-path="../week027/Arts-027.html">
+            
+                <a href="../week027/Arts-027.html">
+            
+                    
+                    Week 27
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.29" data-path="../week028/Arts-028.html">
+            
+                <a href="../week028/Arts-028.html">
+            
+                    
+                    Week 28
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.29.1" data-path="../week028/并查集概念及用法分析.html">
+            
+                <a href="../week028/并查集概念及用法分析.html">
+            
+                    
+                    并查集概念及用法分析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.30" data-path="../week029/Arts-029.html">
+            
+                <a href="../week029/Arts-029.html">
+            
+                    
+                    Week 29
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.30.1" data-path="../week029/字典树概念与题型解析.html">
+            
+                <a href="../week029/字典树概念与题型解析.html">
+            
+                    
+                    字典树概念与题型解析
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.31" data-path="../week030/Arts-030.html">
+            
+                <a href="../week030/Arts-030.html">
+            
+                    
+                    Week 30
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.31.1" data-path="../week030/应该如何看待问题.html">
+            
+                <a href="../week030/应该如何看待问题.html">
+            
+                    
+                    应该如何看待问题
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.32" data-path="../week031/Arts-031.html">
+            
+                <a href="../week031/Arts-031.html">
+            
+                    
+                    Week 31
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.33" data-path="../week032/Arts-032.html">
+            
+                <a href="../week032/Arts-032.html">
+            
+                    
+                    Week 32
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.33.1" data-path="../week032/谈谈面试.html">
+            
+                <a href="../week032/谈谈面试.html">
+            
+                    
+                    谈谈面试
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.34" data-path="../week033/Arts-033.html">
+            
+                <a href="../week033/Arts-033.html">
+            
+                    
+                    Week 33
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.34.1" data-path="../week033/动态规划之初识动规.html">
+            
+                <a href="../week033/动态规划之初识动规.html">
+            
+                    
+                    动态规划之初识动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.35" data-path="../week034/Arts-034.html">
+            
+                <a href="../week034/Arts-034.html">
+            
+                    
+                    Week 34
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.35.1" data-path="../week034/动态规划之矩阵类动规.html">
+            
+                <a href="../week034/动态规划之矩阵类动规.html">
+            
+                    
+                    动态规划之矩阵类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.36" data-path="../week035/Arts-035.html">
+            
+                <a href="../week035/Arts-035.html">
+            
+                    
+                    Week 35
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.36.1" data-path="../week035/动态规划之序列类动规.html">
+            
+                <a href="../week035/动态规划之序列类动规.html">
+            
+                    
+                    动态规划之序列类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.37" data-path="../week036/Arts-036.html">
+            
+                <a href="../week036/Arts-036.html">
+            
+                    
+                    Week 36
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.37.1" data-path="../week036/动态规划之字符匹配类动规.html">
+            
+                <a href="../week036/动态规划之字符匹配类动规.html">
+            
+                    
+                    动态规划之字符匹配类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.38" data-path="../week037/Arts-037.html">
+            
+                <a href="../week037/Arts-037.html">
+            
+                    
+                    Week 37
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.38.1" data-path="../week037/动态规划之区间类动规.html">
+            
+                <a href="../week037/动态规划之区间类动规.html">
+            
+                    
+                    动态规划之区间类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.39" data-path="../week038/Arts-038.html">
+            
+                <a href="../week038/Arts-038.html">
+            
+                    
+                    Week 38
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.40" data-path="../week039/Arts-039.html">
+            
+                <a href="../week039/Arts-039.html">
+            
+                    
+                    Week 39
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.40.1" data-path="../week039/动态规划之背包类动规.html">
+            
+                <a href="../week039/动态规划之背包类动规.html">
+            
+                    
+                    动态规划之背包类动规
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Week 7</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h2 id="algorithm">Algorithm</h2>
+<p><strong>&#x9898;&#x76EE;&#x4E00;</strong>&#xFF1A;<br></p>
+<p><a href="https://leetcode.com/problems/first-missing-positive/" target="_blank">LC 41. First Missing Positive</a></p>
+<p><strong>&#x89E3;&#x7B54;</strong>&#xFF1A;<br></p>
+<p>&#x7ED9;&#x4E00;&#x4E2A;&#x6574;&#x5F62;&#x6570;&#x7EC4;&#xFF0C;&#x627E;&#x51FA;&#x6700;&#x5C0F;&#x7F3A;&#x5931;&#x7684;&#x6B63;&#x6574;&#x6570;&#xFF0C;&#x4F8B;&#x5982; [0,-1,2] &#x4E2D;&#x6700;&#x5C0F;&#x7F3A;&#x5931;&#x7684;&#x6B63;&#x6574;&#x6570;&#x5C31;&#x662F; 1&#xFF0C;[1,2,4,9] &#x4E2D;&#x6700;&#x5C0F;&#x7F3A;&#x5931;&#x7684;&#x6B63;&#x6574;&#x6570;&#x5C31;&#x662F; 3&#x3002;&#x8FD9;&#x9053;&#x9898;&#x5982;&#x679C;&#x4E0D;&#x52A0;&#x4E0A; $O(n)$ &#x65F6;&#x95F4;&#x548C; $O(1)$ &#x7A7A;&#x95F4;&#x8FD9;&#x6837;&#x7684;&#x9650;&#x5B9A;&#x6761;&#x4EF6;&#xFF0C;&#x5E94;&#x8BE5;&#x518D;&#x7B80;&#x5355;&#x4E0D;&#x8FC7;&#xFF0C;&#x4F46;&#x662F;&#x52A0;&#x4E0A;&#x4E86;&#x8FD9;&#x4E24;&#x4E2A;&#x8981;&#x6C42;&#xFF0C;&#x4E00;&#x4E0B;&#x5B50;&#x4F7F;&#x95EE;&#x9898;&#x53D8;&#x5F97;&#x68D8;&#x624B;&#x3002;&#x600E;&#x4E48;&#x6765;&#x601D;&#x8003;&#xFF1F;&#x9996;&#x5148;&#x8FD9;&#x9053;&#x9898;&#x7ED9;&#x5B9A;&#x7684;&#x6761;&#x4EF6;&#x5F88;&#x6709;&#x9650;&#xFF0C;&#x8F93;&#x5165;&#x53C2;&#x6570;&#x5C31;&#x53EA;&#x6709;&#x6570;&#x7EC4;&#xFF0C;&#x5982;&#x679C;&#x975E;&#x8981;&#x7528; $O(n)$ &#x65F6;&#x95F4;&#x548C; $O(1)$ &#x7A7A;&#x95F4;&#x6765;&#x505A;&#x7684;&#x8BDD;&#xFF0C;&#x8868;&#x793A;&#x6211;&#x4EEC;&#x9664;&#x4E86;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x4EE5;&#x5916;&#xFF0C;&#x4E0D;&#x80FD;&#x501F;&#x52A9;&#x4EFB;&#x4F55;&#x5176;&#x4ED6;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x3002;&#x6570;&#x7EC4;&#x5E94;&#x8BE5;&#x662F;&#x5C5E;&#x4E8E;&#x4E00;&#x7C7B;&#x6700;&#x6700;&#x57FA;&#x7840;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF0C;&#x9664;&#x53BB; length &#x4E4B;&#x5916;&#xFF0C;&#x5C31;&#x53EA;&#x6709;&#x4E24;&#x4E2A;&#x5C5E;&#x6027; index &#x548C; value&#xFF0C;&#x90A3;&#x8FD9;&#x9053;&#x9898;&#x5C31;&#x53D8;&#x6210;&#x4E86; &#x201C;&#x5982;&#x4F55;&#x5229;&#x7528;&#x6570;&#x7EC4;&#x7684; value &#x548C; index &#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#x6765;&#x627E;&#x5230;&#x6700;&#x5C0F;&#x7F3A;&#x5931;&#x6B63;&#x6574;&#x6570;&#x201D;&#xFF0C;&#x5982;&#x679C;&#x60F3;&#x5230;&#x4E86;&#x8FD9;&#x4E00;&#x70B9;&#xFF0C;&#x5C31;&#x5DF2;&#x7ECF;&#x6210;&#x529F;&#x4E86;&#x4E00;&#x534A;&#x3002;&#x5982;&#x679C;&#x7EE7;&#x7EED;&#x60F3;&#x4E0B;&#x53BB;&#x6709;&#x51E0;&#x70B9;&#x662F;&#x53EF;&#x4EE5;&#x660E;&#x786E;&#x7684;&#xFF1A;</p>
+<ol>
+<li>&#x7F3A;&#x5931;&#x7684;&#x6B63;&#x6574;&#x6570;&#x80AF;&#x5B9A;&#x5728; [1, array.length + 1] &#x8FD9;&#x4E2A;&#x8303;&#x56F4;&#x5185;</li>
+<li>&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4EA4;&#x6362;&#x8F93;&#x5165;&#x6570;&#x7EC4;&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x7684;&#x4F4D;&#x7F6E;&#x6765;&#x8BA9; index &#x548C; value &#x7684;&#x5173;&#x7CFB;&#x66F4;&#x52A0;&#x660E;&#x786E;</li>
+<li>&#x4FDD;&#x8BC1; index &#x548C; value &#x7684;&#x5173;&#x7CFB;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7; index &#x6765;&#x5224;&#x5B9A;&#x6574;&#x6570;&#x7684;&#x5B58;&#x5728;&#x6027;</li>
+</ol>
+<p>&#x7B2C;&#x4E00;&#x70B9;&#x5F88;&#x597D;&#x7406;&#x89E3;&#xFF0C;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x603B;&#x5171;&#x6709; array.length &#x8FD9;&#x4E48;&#x591A;&#x4E2A;&#x6570;&#xFF0C;&#x5168;&#x90E8;&#x6392;&#x6EE1;&#xFF0C;&#x4E5F;&#x5C31;&#x662F; 1,2,...array.length, &#x90A3;&#x4E48;&#x7B54;&#x6848;&#x5C31;&#x662F; array.length + 1&#xFF0C;&#x6CA1;&#x6709;&#x6392;&#x6EE1;&#xFF0C;&#x90A3;&#x4E48;&#x5728;&#x8FD9;&#x4E4B;&#x95F4;&#x80AF;&#x5B9A;&#x662F;&#x6709;&#x7F3A;&#x5931;&#x5143;&#x7D20;&#x7684;&#x3002;&#x7B2C;&#x4E8C;&#x70B9;&#x662F;&#x8BF4;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4EA4;&#x6362;&#x6765;&#x8BA9; index &#x548C; value &#x5F62;&#x6210;&#x5BF9;&#x5E94;&#xFF0C;&#x6211;&#x4EEC;&#x770B;&#x7684;&#x662F; value&#xFF0C;&#x4F46;&#x662F; index &#x53EF;&#x4EE5;&#x8F85;&#x52A9;&#x6211;&#x4EEC;&#x5BFB;&#x627E;&#x3002;&#x524D;&#x4E24;&#x70B9;&#x660E;&#x786E;&#x4E86;&#xFF0C;&#x7B2C;&#x4E09;&#x70B9;&#x5C31;&#x662F;&#x4ECE;&#x5934;&#x5230;&#x5C3E;&#x5BFB;&#x627E;&#x7B54;&#x6848;&#x7684;&#x8FC7;&#x7A0B;&#x3002;</p>
+<p><strong>&#x5B9E;&#x73B0;&#x53C2;&#x8003;&#x4EE3;&#x7801;</strong>&#xFF1A;</p>
+<pre><code class="lang-java"><span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> <span class="hljs-title">firstMissingPositive</span><span class="hljs-params">(<span class="hljs-keyword">int</span>[] nums)</span> </span>{
+    <span class="hljs-keyword">if</span> (nums == <span class="hljs-keyword">null</span> || nums.length == <span class="hljs-number">0</span>) {
+        <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
+    }
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; nums.length;) {
+        <span class="hljs-keyword">if</span> (nums[i] &lt;= <span class="hljs-number">0</span> || nums[i] &gt; nums.length || nums[nums[i] - <span class="hljs-number">1</span>] == nums[i]) {
+            i++;
+            <span class="hljs-keyword">continue</span>;
+        }
+
+        <span class="hljs-comment">// swap</span>
+        <span class="hljs-keyword">int</span> tmp = nums[nums[i] - <span class="hljs-number">1</span>];
+        nums[nums[i] - <span class="hljs-number">1</span>] = nums[i];
+        nums[i] = tmp;
+    }
+
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">0</span>; i &lt; nums.length; ++i) {
+        <span class="hljs-keyword">if</span> (nums[i] != i + <span class="hljs-number">1</span>) {
+            <span class="hljs-keyword">return</span> i + <span class="hljs-number">1</span>;
+        }
+    }
+
+    <span class="hljs-keyword">return</span> nums.length + <span class="hljs-number">1</span>;
+}
+</code></pre>
+<p><strong>&#x603B;&#x7ED3;</strong>&#xFF1A;<br></p>
+<p>&#x4EE3;&#x7801;&#x4E2D; index &#x548C; value &#x7684;&#x5BF9;&#x5E94;&#x5173;&#x7CFB;&#x662F; index = value - 1&#xFF0C;&#x4EE3;&#x7801;&#x5B9E;&#x73B0;&#x6709;&#x4E24;&#x70B9;&#x9700;&#x8981;&#x6CE8;&#x610F;&#xFF0C;&#x7B2C;&#x4E00;&#x662F;&#xFF0C;&#x4EA4;&#x6362;&#x5B8C;&#x540E;&#xFF0C;&#x9700;&#x8981;&#x5224;&#x65AD;&#x4EA4;&#x6362;&#x8FC7;&#x6765;&#x7684;&#x6570;&#x662F;&#x5426;&#x9700;&#x8981;&#x88AB;&#x653E;&#x5230;&#x76F8;&#x5E94;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x4F8B;&#x5982; <code>[2,3,1]</code>&#xFF1B;&#x7B2C;&#x4E8C;&#x70B9;&#x65F6;&#xFF0C;&#x5143;&#x7D20;&#x8D8A;&#x754C;&#x7684;&#x8BDD;&#xFF0C;&#x4EE5;&#x53CA;&#x5143;&#x7D20; value &#x5DF2;&#x7ECF;&#x548C; index &#x5BF9;&#x5E94;&#x4E0A;&#x4E86;&#xFF0C;&#x90A3;&#x4E48;&#x5C31;&#x5E94;&#x8BE5;&#x7EE7;&#x7EED;&#x904D;&#x5386;&#xFF0C;&#x4F8B;&#x5982; <code>[0,-1,1]</code> &#x548C; <code>[1,1]</code>&#x3002;&#x603B;&#x7684;&#x6765;&#x8BF4;&#x8FD9;&#x9053;&#x9898;&#x5E76;&#x6CA1;&#x6709;&#x6D89;&#x53CA;&#x4EC0;&#x4E48;&#x7B97;&#x6CD5;&#x548C;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x5E94;&#x7528;&#xFF0C;&#x6709;&#x70B9;&#x50CF;&#x8111;&#x7B4B;&#x6025;&#x8F6C;&#x5F2F;&#x7684;&#x611F;&#x89C9;&#xFF0C;&#x60F3;&#x5230;&#x4E86;&#x5C31;&#x505A;&#x7684;&#x51FA;&#xFF0C;&#x60F3;&#x4E0D;&#x5230;&#x7684;&#x8BDD;&#x5C31;&#x505A;&#x4E0D;&#x51FA;&#xFF0C;&#x4F46;&#x662F;&#x5B83;&#x7ED9;&#x6211;&#x4EEC;&#x89E3;&#x6570;&#x7EC4;&#x95EE;&#x9898;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x65B9;&#x5411;&#xFF1A;&#x5229;&#x7528; index &#x548C; value &#x7684;&#x5BF9;&#x5E94;&#x5173;&#x7CFB;&#x6765;&#x8F85;&#x52A9;&#x6C42;&#x89E3;</p>
+<p><br></p>
+<h2 id="review">Review</h2>
+<p>&#x4E24;&#x7BC7;&#x5173;&#x4E8E; Linux &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x542F;&#x52A8;&#x548C;&#x521D;&#x59CB;&#x5316;&#x7684;&#x6587;&#x7AE0;:<br></p>
+<p><a href="https://opensource.com/article/17/2/linux-boot-and-startup" target="_blank">An introduction to the Linux boot and startup processes</a></p>
+<p><a href="https://opensource.com/article/17/3/introduction-grub2-configuration-linux" target="_blank">An introduction to GRUB2 configuration for your Linux machine</a></p>
+<p>&#x7B2C;&#x4E00;&#x7BC7;&#x6587;&#x7AE0;&#x8BB2;&#x7684;&#x662F;&#x5173;&#x4E8E; Linux &#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x7684;&#x542F;&#x52A8;&#x548C;&#x521D;&#x59CB;&#x5316;&#xFF0C;&#x6709;&#x4EE5;&#x4E0B;&#x51E0;&#x4E2A;&#x9636;&#x6BB5;&#xFF1A;</p>
+<ul>
+<li>BIOS POST&#xFF08;Power On Self Test&#xFF09;<ul>
+<li>&#x68C0;&#x67E5;&#x786C;&#x4EF6;&#x529F;&#x80FD;&#x662F;&#x5426;&#x6B63;&#x786E;</li>
+<li>&#x5B8C;&#x6BD5;&#x540E;&#x4F1A;&#x89E6;&#x53D1; BIOS &#x4E2D;&#x65AD;&#xFF0C;&#x5B9A;&#x4F4D;&#x5230;&#x5F15;&#x5BFC;&#x6247;&#x533A;&#xFF08;&#x4E3A;&#x63A5;&#x4E0B;&#x6765;&#x7684; Bootloader &#x4F5C;&#x51C6;&#x5907;&#xFF09;</li>
+</ul>
+</li>
+<li>GRUB2&#xFF08;GRand Unified Bootloader, version 2&#xFF09;<ul>
+<li>&#x542F;&#x52A8;&#x7BA1;&#x7406;&#x5668;&#xFF0C;&#x5E2E;&#x52A9;&#x8BA1;&#x7B97;&#x673A;&#x80FD;&#x591F;&#x627E;&#x5230;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x5185;&#x6838;&#xFF0C;&#x5E76;&#x628A;&#x5B83;&#x52A0;&#x8F7D;&#x5230;&#x5185;&#x5B58;&#x4E2D;&#x8FD0;&#x884C;</li>
+<li>&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x76EE;&#x5F55;&#x5728; <code>/boot/grub2/grub.cfg</code></li>
+<li>&#x4E09;&#x4E2A;&#x9636;&#x6BB5;<ul>
+<li>&#x9636;&#x6BB5; 1&#xFF0C;&#x5728; MBR&#xFF08;Master Boot Record&#xFF09; &#x6247;&#x533A;&#x4E2D;&#x627E;&#x5230; boot.img &#x6587;&#x4EF6;&#xFF0C;&#x53EA;&#x6709; 446 Bytes&#xFF0C;&#x8FD9;&#x4E00;&#x6B65;&#x53EA;&#x662F;&#x4E3A;&#x4E0B;&#x4E00;&#x6B65;&#x4F5C;&#x51C6;&#x5907;</li>
+<li>&#x9636;&#x6BB5; 1.5&#xFF0C;&#x5728; MBR &#x548C;&#x7B2C;&#x4E00;&#x6247;&#x533A;&#x4E4B;&#x95F4;&#xFF0C;&#x5BF9;&#x5E94;&#x5230; core.img &#x6587;&#x4EF6;&#xFF0C;&#x8FD9;&#x662F;&#x5F00;&#x59CB;&#x8FD0;&#x884C;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#x7684;&#x9A71;&#x52A8;&#x5668;&#xFF0C;&#x4E3A;&#x4E0B;&#x4E00;&#x4E2A;&#x9636;&#x6BB5;&#x4F5C;&#x51C6;&#x5907;</li>
+<li>&#x9636;&#x6BB5; 2&#xFF0C;&#x6240;&#x6709;&#x7684;&#x76F8;&#x5173;&#x6587;&#x4EF6;&#x5728; <code>/boot/grub2/i386-pc</code> &#x76EE;&#x5F55;&#x4E0B;&#xFF0C;&#x8FD9;&#x4E2A;&#x9636;&#x6BB5;&#x4E3B;&#x8981;&#x662F;&#x627E;&#x5230;&#x5E76;&#x52A0;&#x8F7D; Linux kernel &#x5230; RAM&#xFF0C;&#x628A;&#x8BA1;&#x7B97;&#x673A;&#x7684;&#x63A7;&#x5236;&#x6743;&#x4EA4;&#x7ED9; kernel&#xFF0C;&#x6709;&#x5173; kernel &#x7684;&#x6587;&#x4EF6;&#xFF0C;&#x5F00;&#x5934;&#x90FD;&#x662F; vmlinuz&#xFF0C;&#x53EF;&#x4EE5;&#x5728; <code>/boot</code> &#x76EE;&#x5F55;&#x4E0B;&#x67E5;&#x770B;&#x73B0;&#x6709;&#x7684; kernel</li>
+<li>kernel &#x53EF;&#x4EE5;&#x81EA;&#x5DF1;&#x63D0;&#x53D6;&#x548C;&#x89E3;&#x538B;&#xFF0C;kernel &#x8FD0;&#x884C;&#x540E;&#xFF0C;&#x52A0;&#x8F7D; systemd&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x6700;&#x521D;&#x59CB;&#x8FDB;&#x7A0B;&#xFF0C;&#x5E76;&#x628A;&#x63A7;&#x5236;&#x6743;&#x4EA4;&#x7ED9;&#x5B83;&#xFF0C;&#x542F;&#x52A8;&#x9636;&#x6BB5;&#x5230;&#x6B64;&#x7ED3;&#x675F;</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>&#x521D;&#x59CB;&#x5316;&#x9636;&#x6BB5;<ul>
+<li>systemd<ul>
+<li>&#x662F;&#x6240;&#x6709;&#x8FDB;&#x7A0B;&#x7684;&#x6BCD;&#x8FDB;&#x7A0B;</li>
+<li>&#x52A0;&#x8F7D;&#x6587;&#x4EF6;&#x7CFB;&#x7EDF;&#xFF0C;&#x5B9A;&#x4E49;&#x5728; <code>/etc/fstab</code></li>
+<li>&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5728; <code>/etc/systemd/system/default.target</code> &#x91CC;&#xFF0C;&#x8FD9;&#x91CC;&#x9762;&#x5B9A;&#x4E49;&#x4E86;&#x4EC0;&#x4E48;&#x72B6;&#x6001;&#x548C;&#x76EE;&#x6807;&#x9700;&#x8981;&#x88AB;&#x521D;&#x59CB;&#x5316;&#x5230;&#x5F53;&#x524D;&#x7528;&#x6237;</li>
+<li>&#x6839;&#x636E;&#x9700;&#x6C42;&#x6765;&#x542F;&#x52A8;&#x76F8;&#x5E94;&#x7684; target &#x6587;&#x4EF6;</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p><br></p>
+<p>&#x7B2C;&#x4E8C;&#x7BC7;&#x6587;&#x7AE0;&#x8BB2;&#x7684;&#x662F;&#x5982;&#x4F55;&#x914D;&#x7F6E; GRUB2</p>
+<ul>
+<li>&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5728; <code>/boot/grub2/grub.cfg</code>&#xFF0C;&#x4EA7;&#x751F;&#x4E8E; Linux &#x7684;&#x5B89;&#x88C5;&#xFF0C;&#x6BCF;&#x5F53;&#x65B0;&#x7684; kernel &#x88AB;&#x5B89;&#x88C5;&#xFF0C;&#x4F1A;&#x91CD;&#x65B0;&#x751F;&#x6210;</li>
+<li>grub.cfg &#x8981;&#x627E;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x5728; <code>/etc/grub.d</code> &#x76EE;&#x5F55;&#x4E0B;&#xFF0C;&#x8FD9;&#x4E9B;&#x6587;&#x4EF6;&#x5F00;&#x5934;&#x7684;&#x6570;&#x5B57;&#x662F;&#x4E3A;&#x4E86;&#x7ED9; grub.cfg &#x6587;&#x4EF6;&#x4E00;&#x4E2A;&#x53C2;&#x8003;&#x987A;&#x5E8F;&#xFF0C;&#x4EE5;&#x4FBF;&#x5BF9;&#x5E94;&#x6B63;&#x786E;&#x3002;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x5728;&#x8FD9;&#x4E2A;&#x76EE;&#x5F55;&#x4E0B;&#x81EA;&#x5DF1;&#x6DFB;&#x52A0;&#x6587;&#x4EF6;&#xFF0C;&#x4E3B;&#x8981;&#x76EE;&#x7684;&#x662F;&#x4E3A;&#x4E86;&#x975E; Linux &#x7684;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#xFF0C;&#x4F46;&#x6CE8;&#x610F;&#x5FC5;&#x987B;&#x7D27;&#x8DDF;&#x7740; 10_linux &#x4E4B;&#x524D;&#x6216;&#x4E4B;&#x540E;</li>
+<li>&#x7531;&#x4E8E; grub.cfg &#x6587;&#x4EF6;&#x8F83;&#x4E3A;&#x590D;&#x6742;&#xFF0C;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x66F4;&#x6539; <code>/etc/default/grub</code> &#x6587;&#x4EF6;&#x6765;&#x8FBE;&#x5230;&#x76EE;&#x7684;&#xFF0C;&#x8FD9;&#x4E2A;&#x6587;&#x4EF6;&#x91CC;&#x9762;&#x5B58;&#x653E;&#x7684;&#x90FD;&#x662F;&#x5F88;&#x7B80;&#x5355;&#x7684; key-value &#x5BF9;&#xFF0C;&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E9B; keys &#x7684;&#x5B9A;&#x4E49;&#xFF1A;<ul>
+<li><strong>GRUB_TIMEOUT</strong>&#xFF1A;GRUB &#x542F;&#x52A8;&#x65F6;&#x7684; kernel &#x9009;&#x62E9;&#x83DC;&#x5355;&#x6301;&#x7EED;&#x65F6;&#x95F4;&#xFF0C;&#x5355;&#x4F4D; /&#x79D2;</li>
+<li><strong>GRUB_DISTRIBUTOR</strong>&#xFF1A;kernel &#x9009;&#x62E9;&#x83DC;&#x5355;&#x4E0A;&#x9762; kernel &#x5BF9;&#x5E94;&#x7684;&#x5177;&#x4F53;&#x540D;&#x79F0;</li>
+<li><strong>GRUB_DEFAULT</strong>&#xFF1A;&#x542F;&#x52A8;&#x65F6;&#x9ED8;&#x8BA4;&#x7684; kernel</li>
+<li><strong>GRUB_CMDLINE_LINUX</strong>&#xFF1A;kernel &#x542F;&#x52A8;&#x65F6;&#x7684;&#x4F20;&#x5165;&#x53C2;&#x6570;&#xFF0C;&#x4E00;&#x7ECF;&#x8BBE;&#x7F6E;&#xFF0C;&#x5BF9;&#x6240;&#x6709; kernels &#x751F;&#x6548;</li>
+<li><strong>GRUB_DISABLE_RECOVERY</strong>&#xFF1A;&#x5982;&#x679C;&#x8BBE;&#x6210; &#x201C;false&#x201D;&#xFF0C;&#x6062;&#x590D;&#x901A;&#x9053;&#x4F1A;&#x5728;&#x6BCF;&#x4E2A;&#x5B89;&#x88C5;&#x7684; kernel &#x4EA7;&#x751F;&#xFF0C;&#x5982;&#x679C;&#x8BBE;&#x6210; &#x201C;true&#x201D;&#xFF0C;&#x4E0D;&#x4F1A;&#x4EA7;&#x751F;&#x6062;&#x590D;&#x901A;&#x9053;</li>
+<li>...</li>
+</ul>
+</li>
+<li>&#x4F7F;&#x7528;&#x547D;&#x4EE4; <code>grub2-mkconfig &gt; /boot/grub2/grub.cfg</code> &#x6765;&#x4EA7;&#x751F; grub.cfg &#x6587;&#x4EF6;</li>
+<li>&#x5EFA;&#x8BAE;&#x628A; GRUB_DISABLE_RECOVERY &#x8BBE;&#x6210; &#x201C;false&#x201D;&#xFF0C;&#x7136;&#x540E;&#x6839;&#x636E;&#x81EA;&#x5DF1;&#x7684;&#x5B9A;&#x4E49;&#x751F;&#x6210; grub.cfg &#x6587;&#x4EF6;</li>
+</ul>
+<p><br></p>
+<h2 id="tip">Tip</h2>
+<p>&#x5728;&#x770B;&#x6781;&#x5BA2;&#x65F6;&#x95F4;&#x4E0A;&#x9762;&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;&#x4E13;&#x680F;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5B66;&#x4E60;&#x4E86;&#x4E00;&#x4E2A; PPT &#x8BB0;&#x7B14;&#x8BB0;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4E25;&#x683C;&#x610F;&#x4E49;&#x4E0A;&#x6765;&#x8BB2;&#xFF0C;&#x8FD9;&#x4E2A;&#x4E0D;&#x80FD;&#x7B97;&#x662F;&#x4E00;&#x4E2A;&#x6280;&#x672F;&#x6280;&#x5DE7;&#xFF0C;&#x5E94;&#x8BE5;&#x7B97;&#x662F;&#x4E00;&#x4E2A;&#x5B66;&#x4E60;&#x6280;&#x5DE7;&#xFF0C;&#x4F46;&#x662F;&#x7528;&#x597D;&#x4E86;&#x53EF;&#x4EE5;&#x5E2E;&#x52A9;&#x6211;&#x4EEC;&#x66F4;&#x6E05;&#x6670;&#x9AD8;&#x6548;&#x5730;&#x8BB0;&#x7B14;&#x8BB0;&#x3002;&#x6B65;&#x9AA4;&#x5982;&#x4E0B;&#xFF1A;</p>
+<ol>
+<li>&#x4E3A;&#x6587;&#x7AE0;&#x4E2D;&#x4E00;&#x6BB5;&#x77E5;&#x8BC6;&#xFF08;&#x4E5F;&#x53EF;&#x4EE5;&#x662F;&#x4E00;&#x4E2A;&#x7AE0;&#x8282;&#xFF09;&#x505A;&#x4E00;&#x5F20; PPT&#xFF0C;&#x6807;&#x9898;&#x5C31;&#x662F;&#x6BB5;&#x843D;&#x5927;&#x610F;&#xFF0C;&#x6B63;&#x6587;&#x7F57;&#x5217;&#x8FD9;&#x6BB5;&#x5F53;&#x4E2D;&#x7684;&#x6240;&#x6709;&#x77E5;&#x8BC6;&#x70B9;&#xFF0C;&#x5E76;&#x7ED9;&#x4E0D;&#x6E05;&#x695A;&#xFF0C;&#x4E0D;&#x4E86;&#x89E3;&#x7684;&#x77E5;&#x8BC6;&#x70B9;&#x6807;&#x53F7;</li>
+<li>&#x9488;&#x5BF9;&#x6B65;&#x9AA4; 1 &#x5F53;&#x4E2D;&#x4E0D;&#x6E05;&#x695A;&#x3001;&#x4E0D;&#x4E86;&#x89E3;&#x7684;&#x77E5;&#x8BC6;&#x70B9;&#x8FDB;&#x884C;&#x5B66;&#x4E60;&#xFF0C;&#x67E5;&#x627E;&#x8D44;&#x6599;&#x8865;&#x5145;&#xFF0C;&#x5C06;&#x8D44;&#x6599;&#x548C;&#x91CD;&#x8981;&#x7684;&#x70B9;&#x8D34;&#x5728;&#x63A5;&#x4E0B;&#x6765;&#x7684;&#x51E0;&#x5F20; PPT &#x4E2D;&#xFF0C;&#x8FD9;&#x91CC;&#x53EF;&#x80FD;&#x8FD8;&#x4F1A;&#x51FA;&#x73B0;&#x4E0D;&#x6E05;&#x695A;&#xFF0C;&#x4E0D;&#x4E86;&#x89E3;&#x7684;&#x5D4C;&#x5957;&#x77E5;&#x8BC6;&#xFF0C;&#x7EE7;&#x7EED;&#x7F16;&#x53F7;&#x5373;&#x53EF;</li>
+<li>&#x5F53;&#x7B2C;&#x4E00;&#x5F20; PPT &#x4E2D;&#x6240;&#x6709;&#x4E0D;&#x6E05;&#x695A;&#x7684;&#x5730;&#x65B9;&#x90FD;&#x5F04;&#x61C2;&#x4E86;&#xFF0C;&#x628A;&#x6240;&#x6709;&#x4EE5;&#x77E5;&#x8BC6;&#x70B9;&#x4E3A;&#x6807;&#x9898;&#x7684; PPT &#x90FD;&#x653E;&#x5728;&#x6700;&#x540E;&#x5F53;&#x4F5C;&#x9644;&#x9875;</li>
+</ol>
+<p>&#x8FD9;&#x4E48;&#x4E0B;&#x6765;&#xFF0C;&#x56DE;&#x5934;&#x770B;&#x6587;&#x7AE0;&#x5C31;&#x4F1A;&#x89C9;&#x5F97;&#x975E;&#x5E38;&#x6E05;&#x6670;&#xFF0C;&#x5FD8;&#x4E86;&#x7684;&#x5730;&#x65B9;&#x4E5F;&#x53EF;&#x5F88;&#x65B9;&#x4FBF;&#x5730;&#x53BB;&#x5BF9;&#x5E94;&#x9644;&#x9875;&#x4E2D;&#x5BFB;&#x627E;&#x3002;&#x8FD9;&#x6837;&#x7684;&#x8BB0;&#x7B14;&#x8BB0;&#x7684;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x8BA9;&#x4F60;&#x6DF1;&#x5165;&#x4E00;&#x4E2A;&#x77E5;&#x8BC6;&#x70B9;&#xFF0C;&#x628A;&#x4E66;&#x8BFB; &#x201C;&#x539A;&#x201D;&#xFF0C;&#x5F88;&#x9002;&#x5408;&#x7CBE;&#x5B66;&#x3002;</p>
+<p><br></p>
+<h2 id="share">Share</h2>
+<p>&#x6700;&#x8FD1;&#x5199;&#x7B97;&#x6CD5;&#x9898;&#x5199;&#x7684;&#x6BD4;&#x8F83;&#x591A;&#xFF0C;&#x5206;&#x4EAB;&#x7684;&#x5185;&#x5BB9;&#x4E5F;&#x90FD;&#x662F;&#x548C;&#x7B97;&#x6CD5;&#x6709;&#x5173;&#x7684;&#xFF0C;&#x611F;&#x89C9;&#x9898;&#x578B;&#x603B;&#x7ED3;&#x3001;&#x5206;&#x7C7B;&#x5F88;&#x91CD;&#x8981;&#xFF0C;&#x65F6;&#x5E38;&#x56DE;&#x987E;&#x4E5F;&#x5F88;&#x91CD;&#x8981;&#x3002;&#x5E0C;&#x671B;&#x81EA;&#x5DF1;&#x5728;&#x8FD9;&#x4E2A;&#x9636;&#x6BB5;&#x591A;&#x591A;&#x79EF;&#x7D2F;&#x4E9B;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#xFF0C;&#x4E0D;&#x5149;&#x662F;&#x7B97;&#x6CD5;&#xFF0C;&#x8FD8;&#x6709;&#x5176;&#x4ED6;&#x5F88;&#x591A;&#x5F88;&#x591A;&#x9700;&#x8981;&#x5B66;&#x7684;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x3002;
+<br></p>
+<p><a href="LeetCode&#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#xFF08;SlidingWindow&#xFF09;&#x7C7B;&#x95EE;&#x9898;&#x603B;&#x7ED3;.html">LeetCode &#x6ED1;&#x52A8;&#x7A97;&#x53E3;&#xFF08;Sliding Window&#xFF09;&#x7C7B;&#x95EE;&#x9898;&#x603B;&#x7ED3;</a></p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../week006/股票问题汇总.html" class="navigation navigation-prev " aria-label="Previous page: 股票问题汇总">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="LeetCode滑动窗口（SlidingWindow）类问题总结.html" class="navigation navigation-next " aria-label="Next page: LeetCode滑动窗口（SlidingWindow）类问题总结">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Week 7","level":"1.8","depth":1,"next":{"title":"LeetCode滑动窗口（SlidingWindow）类问题总结","level":"1.8.1","depth":2,"path":"week007/LeetCode滑动窗口（SlidingWindow）类问题总结.md","ref":"./week007/LeetCode滑动窗口（SlidingWindow）类问题总结.md","articles":[]},"previous":{"title":"股票问题汇总","level":"1.7.1","depth":2,"path":"week006/股票问题汇总.md","ref":"./week006/股票问题汇总.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"week007/Arts-007.md","mtime":"2019-07-15T06:11:43.191Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-12-20T02:38:22.171Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
