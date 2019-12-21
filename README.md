@@ -7,6 +7,21 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 40](./week040/Arts-040.md)
+
+Algorithm：LC 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
+
+Review：97 Things Every Programmer Should Know （1-3）
+
+Tip：gitbook 初试
+
+Share：动态规划之空间优化与总结回顾
+
+
+
+<br>
+
+
 ### [Week 39](./week039/Arts-039.md)
 
 Algorithm：LC 78. Subsets
@@ -21,6 +36,7 @@ Share：背包类动态规划
 
 <br>
 
+
 ### [Week 38](./week038/Arts-038.md)
 
 Algorithm：LC 410. Split Array Largest Sum
@@ -33,6 +49,7 @@ Share：分享皓叔的一篇关于自我认识的文章
 
 
 <br>
+
 
 ### [Week 37](./week037/Arts-037.md)
 
