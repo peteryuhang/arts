@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 41](./week041/Arts-041.md)
+
+Algorithm：LC 1297. Maximum Number of Occurrences of a Substring
+
+Review：97 Things Every Programmer Should Know （4-6）
+
+Tip：基于 Evernote 的 markdown 在线编辑软件 Marxico 
+
+Share：推荐一篇讲 JS 代码执行顺序的文章
+
+
+<br>
+
 ### [Week 40](./week040/Arts-040.md)
 
 Algorithm：LC 1292. Maximum Side Length of a Square with Sum Less than or Equal to Threshold
@@ -16,7 +29,6 @@ Review：97 Things Every Programmer Should Know （1-3）
 Tip：gitbook 初试
 
 Share：动态规划之空间优化与总结回顾
-
 
 
 <br>
