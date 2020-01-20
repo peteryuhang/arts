@@ -6,6 +6,7 @@ Tip：At least study one technical skill each week<br>
 Share：At least write one thoughtful article each week<br>
 
 <br>
+
 ### [Week 44](./week044/Arts-044.md)
 
 Algorithm：LC 1187. Make Array Strictly Increasing
