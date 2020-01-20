@@ -6,6 +6,44 @@ Tip：At least study one technical skill each week<br>
 Share：At least write one thoughtful article each week<br>
 
 <br>
+### [Week 44](./week044/Arts-044.md)
+
+Algorithm：LC 1187. Make Array Strictly Increasing
+
+Review：关于提高代码质量的 4 条建议
+
+Tip：Python 中的一些方便且高效的内置函数
+
+Share：《逆商：我们该如何应对坏事件》读书笔记
+
+
+<br>
+
+### [Week 43](./week043/Arts-043.md)
+
+Algorithm：LC 173. Binary Search Tree Iterator
+
+Review：一篇介绍 Amazon 公司文化的文章
+
+Tip：MongoDB 的一些常用工具
+
+Share：《深度工作》读书笔记
+
+
+<br>
+
+### [Week 42](./week042/Arts-042.md)
+
+Algorithm：LC 1312. Minimum Insertion Steps to Make a String Palindrome
+
+Review：97 Things Every Programmer Should Know （8-10）
+
+Tip：LeetCode IDE 使用的小技巧 
+
+Share：新年计划，展望 2020
+
+
+<br>
 
 ### [Week 41](./week041/Arts-041.md)
 
