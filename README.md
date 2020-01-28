@@ -7,6 +7,20 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 45](./week045/Arts-045.md)
+
+Algorithm：LC 787. Cheapest Flights Within K Stops
+
+Review：一篇推荐阅读书籍的文章
+
+Tip：MongoDB 中一些之前不知道的指令用法
+
+Share：《靠谱：顶尖咨询师教你的工作基本功》读书笔记
+
+
+<br>
+
+
 ### [Week 44](./week044/Arts-044.md)
 
 Algorithm：LC 1187. Make Array Strictly Increasing
