@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 46](./week046/Arts-046.md)
+
+Algorithm：LC 1335. Minimum Difficulty of a Job Schedule
+
+Review：一篇关于如何准备程序竞赛的文章
+
+Tip：在 ubuntu server 上部署 NodeJS + MySQL
+
+Share：分享耗叔的文章《高效学习：端正学习态度》
+
+
+<br>
+
 ### [Week 45](./week045/Arts-045.md)
 
 Algorithm：LC 787. Cheapest Flights Within K Stops
