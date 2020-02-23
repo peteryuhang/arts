@@ -7,6 +7,31 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 48](./week048/Arts-048.md)
+
+Algorithm：LC 1353. Maximum Number of Events That Can Be Attended
+
+Review：一篇关于如何写好 Git commit message 的文章
+
+Tip：Go 当中的一些语法点
+
+Share：讲述下自己作为码农的一些经历
+
+<br>
+
+
+### [Week 47](./week047/Arts-047.md)
+
+Algorithm：LC 403. Frog Jump
+
+Review：一篇关于职业选择的文章
+
+Tip：几个常用的 vim 指令
+
+Share：分享耗叔的文章《高效学习：源头、原理和知识地图》
+
+<br>
+
 ### [Week 46](./week046/Arts-046.md)
 
 Algorithm：LC 1335. Minimum Difficulty of a Job Schedule
