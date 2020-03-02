@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 49](./week049/Arts-049.md)
+
+Algorithm：LC 1354. Construct Target Array With Multiple Sums
+
+Review：一篇关于学习编程的观点性文章
+
+Tip：Go 当中的一些知识点
+
+Share：阅读 《Clean Code》（立 Flag）
+
+<br>
+
+
 ### [Week 48](./week048/Arts-048.md)
 
 Algorithm：LC 1353. Maximum Number of Events That Can Be Attended
