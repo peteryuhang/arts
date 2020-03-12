@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 50](./week050/Arts-050.md)
+
+Algorithm：LC 162. Find Peak Element && Follow up
+
+Review：一篇关于使用现代 IDE 的认识性文章
+
+Tip：Swap space && nvm
+
+Share：《clean code》命名与函数
+
+
+<br>
+
 ### [Week 49](./week049/Arts-049.md)
 
 Algorithm：LC 1354. Construct Target Array With Multiple Sums
