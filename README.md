@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 51](./week051/Arts-051.md)
+
+Algorithm：LC 1381. Design a Stack With Increment Operation
+
+Review：一篇关于学习 Vim 的介绍性文章
+
+Tip：技巧、常识总结：Git、Screen、Go 
+
+Share：《Clean Code》注释、代码风格、对象与数据结构
+
+
+<br>
+
 ### [Week 50](./week050/Arts-050.md)
 
 Algorithm：LC 162. Find Peak Element && Follow up
