@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 52](./week052/Arts-052.md)
+
+Algorithm：LC 450. Delete Node in a BST
+
+Review：一篇关于好程序员和伟大程序员的文章
+
+Tip：Git Learn Branching 学习记录
+
+Share：《Clean Code》异常、边界、单元测试
+
+
+<br>
+
 ### [Week 51](./week051/Arts-051.md)
 
 Algorithm：LC 1381. Design a Stack With Increment Operation
