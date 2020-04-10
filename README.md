@@ -7,6 +7,34 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 54](./week054/Arts-054.md)
+
+Algorithm：LC 406. Queue Reconstruction by Height
+
+Review：如何在命令行中使用 alias 
+
+Tip：如何解决 ECS 服务器无法访问的问题
+
+Share：线段树的基本操作
+
+
+<br>
+
+
+### [Week 53](./week053/Arts-053.md)
+
+Algorithm：LC 560. Subarray Sum Equals K
+
+Review：JavaScript 中的使代码变简洁的 5 个技巧
+
+Tip：正则表达式学习记录
+
+Share：分享一篇关于如何问问题的文章以及自己的思考
+
+
+<br>
+
+
 ### [Week 52](./week052/Arts-052.md)
 
 Algorithm：LC 450. Delete Node in a BST
