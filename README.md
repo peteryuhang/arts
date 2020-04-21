@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 55](./week055/Arts-055.md)
+
+Algorithm：LC 406. Queue Reconstruction by Height（续）
+
+Review：JavaScript 中的 JSON.stringify
+
+Tip：记录一下 KeyNote 的初使用
+
+Share：Clean Code 之旅 - 类与迭进
+
+
+<br>
+
 ### [Week 54](./week054/Arts-054.md)
 
 Algorithm：LC 406. Queue Reconstruction by Height
