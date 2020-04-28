@@ -6,6 +6,18 @@ Tip：At least study one technical skill each week<br>
 Share：At least write one thoughtful article each week<br>
 
 <br>
+### [Week 56](./week056/Arts-056.md)
+
+Algorithm：LC 133. Clone Graph
+
+Review：medium 上面一篇讲述学习误区的文章
+
+Tip：记录一下 Linux 系统下 grep 的详细使用
+
+Share：分享 medium 上面的一篇文章，告诉我们该如何坚持
+
+
+<br>
 
 ### [Week 55](./week055/Arts-055.md)
 
