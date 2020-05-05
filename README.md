@@ -6,6 +6,7 @@ Tip：At least study one technical skill each week<br>
 Share：At least write one thoughtful article each week<br>
 
 <br>
+
 ### [Week 57](./week057/Arts-057.md)
 
 Algorithm：LC Single Number I, II, III
@@ -18,6 +19,7 @@ Share：分享 medium 上面的一篇文章，告诉我们该如何思考问题
 
 
 <br>
+
 ### [Week 56](./week056/Arts-056.md)
 
 Algorithm：LC 133. Clone Graph
