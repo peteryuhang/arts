@@ -5,6 +5,19 @@ Review：At least review one technical article each week<br>
 Tip：At least study one technical skill each week<br>
 Share：At least write one thoughtful article each week<br>
 
+
+<br>
+
+### [Week 58](./week058/Arts-058.md)
+
+Algorithm：LC 151. Reverse Words in a String
+
+Review：一篇讲述如何写错误日志的短文
+
+Tip：记录一下工作中 Python 中时间转换的错误
+
+Share：分享 medium 上面关于机器学习 & 人工智能的文章
+
 <br>
 
 ### [Week 57](./week057/Arts-057.md)
