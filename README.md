@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 59](./week059/Arts-059.md)
+
+Algorithm：LC 174. Dungeon Game
+
+Review：两篇讲述如何阅读学术论文的文章
+
+Tip：记录一下 Golang 当中的一些基本命令
+
+Share：记录机器学习中的误差函数以及梯度下降
+
+<br>
+
 ### [Week 58](./week058/Arts-058.md)
 
 Algorithm：LC 151. Reverse Words in a String
