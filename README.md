@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 60](./week060/Arts-060.md)
+
+Algorithm：LC 886. Possible Bipartition
+
+Review：一篇讲述代码评审的文章
+
+Tip：记录一下 Octave 当中的一些基本命令
+
+Share：皓叔的 makefile 的系列文章第一篇
+
+<br>
+
 ### [Week 59](./week059/Arts-059.md)
 
 Algorithm：LC 174. Dungeon Game
