@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 61](./week060/Arts-061.md)
+
+Algorithm：LC 380, 381. Insert Delete GetRandom O(1)
+
+Review：关于程序员成长建议的文章
+
+Tip：JavaScript 的 Map
+
+Share：皓叔的 makefile 的系列文章第二篇
+
+<br>
+
 ### [Week 60](./week060/Arts-060.md)
 
 Algorithm：LC 886. Possible Bipartition
