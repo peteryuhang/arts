@@ -8,7 +8,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
-### [Week 61](./week060/Arts-061.md)
+### [Week 62](./week062/Arts-062.md)
+
+Algorithm：LC 274, 275. H-Index
+
+Review：几种古老的编程范式
+
+Tip：MySQL 如何支持 Unicode
+
+Share：谈谈如何读书
+
+<br>
+
+### [Week 61](./week061/Arts-061.md)
 
 Algorithm：LC 380, 381. Insert Delete GetRandom O(1)
 
