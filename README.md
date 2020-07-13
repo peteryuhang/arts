@@ -8,6 +8,42 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 65](./week065/Arts-065.md)
+
+Algorithm：LC 368. Largest Divisible Subset
+
+Review：HTTP Security Headers
+
+Tip：CPU 的平均负载
+
+Share：如何更好地养成习惯
+
+<br>
+
+### [Week 64](./week064/Arts-064.md)
+
+Algorithm：LC 332. Reconstruct Itinerary
+
+Review：Linux 下的 dsh 指令
+
+Tip：CSS 的布局
+
+Share：分享一篇如何看待转管理岗的文章
+
+<br>
+
+### [Week 63](./week063/Arts-063.md)
+
+Algorithm：LC 1044. Longest Duplicate Substring
+
+Review：Python 中的一些让代码变简洁的小技巧
+
+Tip：CSS 的一些基本原理
+
+Share：X-Y 问题
+
+<br>
+
 ### [Week 62](./week062/Arts-062.md)
 
 Algorithm：LC 274, 275. H-Index
