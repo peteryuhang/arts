@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 66](./week066/Arts-066.md)
+
+Algorithm：LC 222. Count Complete Tree Nodes
+
+Review：如何更好地学习新技术
+
+Tip：Ant Design Pro 介绍
+
+Share：关于焦虑，我们该怎么做
+
+<br>
+
 ### [Week 65](./week065/Arts-065.md)
 
 Algorithm：LC 368. Largest Divisible Subset
