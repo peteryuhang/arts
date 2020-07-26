@@ -186,7 +186,7 @@ Medium 上的一篇文章，读了感觉受益匪浅。
 
 ![](https://user-gold-cdn.xitu.io/2020/7/26/1738903a4839dd54?w=1556&h=918&f=png&s=223334)
 
-除了 Ant Design 之外，Ant Design Pro 主要是基于 [UmiJS](https://umijs.org/zh-CN/docs) 和 [Dva](https://github.com/dvajs/dva) 这两个前端框架。其中 UmiJS 是一个前端的路由框。在其官网的介绍中可以看出，这个框架其实是一个 React 工具集，就是将我们平时用的一些包，比如 `react-router`，`react-router-dom` 进行打包整理，提供一个更加人性化的结构，便于快速上手。Dva 主要是基于 `redux`的一个轻量级的前端框架。
+除了 Ant Design 之外，Ant Design Pro 主要是基于 [UmiJS](https://umijs.org/zh-CN/docs) 和 [Dva](https://github.com/dvajs/dva) 这两个前端框架。其中 UmiJS 是一个前端的路由框架。在其官网的介绍中可以看出，这个框架其实是一个 React 工具集，就是将我们平时用的一些包，比如 `react-router`，`react-router-dom` 进行打包整理，提供一个更加人性化的结构，便于快速上手。Dva 主要是基于 `redux`的一个轻量级的前端框架。
 
 UmiJS 和 Dva 在阿里内部被广泛使用，其功能是被验证过的，所以可以放心使用。
 
