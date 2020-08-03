@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 67](./week067/Arts-067.md)
+
+Algorithm：LC 264. Ugly Number II
+
+Review：React 中的 ref
+
+Tip：vim 的一些常用命令和拓展
+
+Share：区分 “感受” 和 “事实”
+
+<br>
+
 ### [Week 66](./week066/Arts-066.md)
 
 Algorithm：LC 222. Count Complete Tree Nodes
