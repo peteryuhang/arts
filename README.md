@@ -8,6 +8,31 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 69](./week069/Arts-069.md)
+
+Algorithm：LC 60. Permutation Sequence
+
+Review：Medium 上关于 “心流” 的一篇文章
+
+Tip：vim 的寄存器、宏以及一些插件的分享
+
+Share：认知上的错觉
+
+<br>
+
+
+### [Week 68](./week068/Arts-068.md)
+
+Algorithm：LC 442. Find All Duplicates in an Array
+
+Review：REST API Design
+
+Tip：vim 的插件管理和编辑方式
+
+Share：你缺少的或许只是前进的勇气
+
+<br>
+
 ### [Week 67](./week067/Arts-067.md)
 
 Algorithm：LC 264. Ugly Number II
