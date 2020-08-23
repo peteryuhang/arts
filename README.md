@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 70](./week070/Arts-070.md)
+
+Algorithm：LC 994. Rotting Oranges
+
+Review：关于 JavaScript 代码规范的一篇文章
+
+Tip：vim 的搜索与替换
+
+Share：漫谈程序员
+
+<br>
+
 ### [Week 69](./week069/Arts-069.md)
 
 Algorithm：LC 60. Permutation Sequence
