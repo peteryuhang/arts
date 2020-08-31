@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 71](./week071/Arts-071.md)
+
+Algorithm：LC 143. Reorder List
+
+Review：如何分析成本效益
+
+Tip：vim 写 markdown 文件与 vim 的色彩配置
+
+Share：有价值的事情与有意思的事情
+
+<br>
+
 ### [Week 70](./week070/Arts-070.md)
 
 Algorithm：LC 994. Rotting Oranges
