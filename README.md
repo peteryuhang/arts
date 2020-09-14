@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 72](./week072/Arts-072.md)
+
+Algorithm：LC 1286. Iterator for Combination
+
+Review：Pro Git 英文版阅读 （CH2）
+
+Tip：vim 的一些插件
+
+Share：base64 的介绍
+
+<br>
+
 ### [Week 71](./week071/Arts-071.md)
 
 Algorithm：LC 143. Reorder List
