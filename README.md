@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 73](./week073/Arts-073.md)
+
+Algorithm：LC 967. Numbers With Same Consecutive Differences
+
+Review：Pro Git 英文版阅读 （CH3）
+
+Tip：vim 终端支持
+
+Share：程序员的焦虑，自己的一些感悟
+
+<br>
+
 ### [Week 72](./week072/Arts-072.md)
 
 Algorithm：LC 1286. Iterator for Combination
