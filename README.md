@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 74](./week074/Arts-074.md)
+
+Algorithm：LC 528. Random Pick with Weight
+
+Review：Pro Git 英文版阅读 （CH4）
+
+Tip：JavaScript base64 的编解码机制
+
+Share：/
+
+<br>
+
 ### [Week 73](./week073/Arts-073.md)
 
 Algorithm：LC 967. Numbers With Same Consecutive Differences
