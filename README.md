@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 75](./week075/Arts-075.md)
+
+Algorithm：LC 215. Kth Largest Element in an Array
+
+Review：Pro Git 英文版阅读 （CH5）
+
+Tip：剖析一个 shell 指令
+
+Share：全神贯注，活在当下
+
+<br>
+
 ### [Week 74](./week074/Arts-074.md)
 
 Algorithm：LC 528. Random Pick with Weight
