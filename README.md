@@ -8,6 +8,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 76](./week076/Arts-076.md)
+
+Algorithm：LC 187. Repeated DNA Sequences
+
+Review：Pro Git 英文版阅读 （CH6）
+
+Tip：双因素验证
+
+Share：练习的心态
+
+<br>
+
 ### [Week 75](./week075/Arts-075.md)
 
 Algorithm：LC 215. Kth Largest Element in an Array
