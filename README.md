@@ -5,6 +5,29 @@ Review：At least review one technical article each week<br>
 Tip：At least study one technical skill each week<br>
 Share：At least write one thoughtful article each week<br>
 
+<br>
+
+### [Week 78](./week078/Arts-078.md)
+
+Algorithm：LC 316. Remove Duplicate Letters
+
+Review：Pro Git 英文版阅读 （CH7）
+
+Tip：尾递归
+
+Share：JavaScript 中的数组常见使用误区
+
+<br>
+
+### [Week 77](./week077/Arts-077.md)
+
+Algorithm：LC 241. Different Ways to Add Parentheses
+
+Review：Pro Git 英文版阅读 （CH7）
+
+Tip：Ant Design Pro 使用上的技巧
+
+Share：git 中的 reset 和 checkout
 
 <br>
 
