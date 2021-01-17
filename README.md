@@ -7,6 +7,30 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 80](./week080/Arts-080.md)
+
+Algorithm：LC 647. Palindromic Substrings
+
+Review：Pro Git 英文版阅读 （CH10）
+
+Tip：记录一些计算机的基础知识
+
+Share：新年计划
+
+<br>
+
+### [Week 79](./week079/Arts-079.md)
+
+Algorithm：LC 299. Bulls and Cows
+
+Review：Pro Git 英文版阅读 （CH8）
+
+Tip：记录一个阅读上的方法
+
+Share：JavaScript 常见误区
+
+<br>
+
 ### [Week 78](./week078/Arts-078.md)
 
 Algorithm：LC 316. Remove Duplicate Letters
