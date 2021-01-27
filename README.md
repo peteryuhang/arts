@@ -7,6 +7,19 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+
+### [Week 81](./week081/Arts-081.md)
+
+Algorithm：LC 71. Simplify Path
+
+Review：Pro Git 英文版阅读 （CH10）
+
+Tip：关于摩尔定律
+
+Share：年龄只是一个数字
+
+<br>
+
 ### [Week 80](./week080/Arts-080.md)
 
 Algorithm：LC 647. Palindromic Substrings
