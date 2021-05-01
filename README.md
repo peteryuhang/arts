@@ -7,6 +7,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 82](./week082/Arts-082.md)
+
+Algorithm：LC 334. Increasing Triplet Subsequence
+
+Review：SOLID 原则的争论
+
+Tip：Python 中的 generator
+
+Share：《Effective Python》读书记录
+
+<br>
+
 
 ### [Week 81](./week081/Arts-081.md)
 
