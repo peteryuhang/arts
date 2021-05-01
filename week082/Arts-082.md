@@ -175,5 +175,5 @@ def read_file(filepath):
 
 感觉好久没有写文章。争取再把之前养成的良好习惯给捡回来
 
-[Effective Python 读书笔记（一）]("./Effective%20Python%20读书笔记（一）.md)
+[Effective Python 读书笔记（一）](./Effective%20Python%20读书笔记（一）.md)
 
