@@ -7,6 +7,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 83](./week083/Arts-083.md)
+
+Algorithm：LC 387. First Unique Character in a String
+
+Review：如何避免代码中的坏味道
+
+Tip：如何简单地在后台运行程序
+
+Share：工作的意义
+
+<br>
+
 ### [Week 82](./week082/Arts-082.md)
 
 Algorithm：LC 334. Increasing Triplet Subsequence
