@@ -7,6 +7,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 84](./week084/Arts-084.md)
+
+Algorithm：LC 322. Coin Change & LC 518. Coin Change 2
+
+Review：9 个给软件工程师的建议
+
+Tip：JavaScript 中的 super
+
+Share：深入理解 ES6（一）
+
+<br>
+
 ### [Week 83](./week083/Arts-083.md)
 
 Algorithm：LC 387. First Unique Character in a String
