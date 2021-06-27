@@ -7,6 +7,18 @@ Share：At least write one thoughtful article each week<br>
 
 <br>
 
+### [Week 86](./week086/Arts-086.md)
+
+Algorithm：LC 230. Kth Smallest Element in a BST
+
+Review：高效的一些建议
+
+Tip：Elastic Search VS Solr
+
+Share：人的一生两个最大的财富是：你的才华和你的时间
+
+<br>
+
 ### [Week 85](./week085/Arts-085.md)
 
 Algorithm：LC 763. Partition Labels
