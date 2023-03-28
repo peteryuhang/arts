@@ -112,15 +112,27 @@ private void bfsMark(int[][] grid, int[][] distance, int[][] counts, int i, int 
 
 
 ## Tip
-vagrant 是一个快速构建虚拟环境的工具，其运行在 Oracle 的 VirtualBox 上，其配置主要写在 Vagrantfile 文件之中，这次记录下它的一些常用配置
+vagrant 是一个快速构建虚拟环境的工具，其运行在 Oracle 的 VirtualBox 上
+
+假设你已经安装 VirtualBox 和 vagrant，那么只需通过下面的几个指令就可以创建虚拟机
+
+```bash
+>$ mkdir ~/test_vagrant_vm
+>$ cd ~/test_vagrant_vm
+>$ mkdir shared             # （可选）创建共享文件夹
+>$ vagrant box add ubuntu/trusty64
+```
+
+vagrant 配置主要写在 Vagrantfile 文件之中，这次记录下它的一些常用配置:
+
 ```bash
 Vagrant.configure("2") do |config|
-  config.vm.hostname = "ubuntu"
-  config.vm.box = "base"
+  config.vm.box = "ubuntu/trusty64"
   # 分配私有 IP，这样可以在 HOST 机上访问虚拟机的 localhost
   config.vm.network "private_network", ip: "192.168.50.4"
+
   # 共享文件
-  config.vm.synced_folder "path in host...", "path in virtal machine"
+  config.vm.synced_folder "shared/", "/home/vagrant/shared" # "path in host...", "path in virtal machine"
   config.vm.provider "virtualbox" do |vb|
     vb.name = "pyh3326"
     vb.gui = false
@@ -130,11 +142,12 @@ end
 ```
 
 另外 vagrant 的初始化、登陆、重新加载、关机命令分别为为:
+
 ```bash
 >$ vagrant up
 >$ vagrant ssh
->$ vagrant reload
 >$ vagrant halt
+>$ vagrant reload # 等同于 vagrant halt + vagrant up
 ```
 记得不用虚拟机要关闭
 
