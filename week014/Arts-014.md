@@ -151,6 +151,14 @@ end
 ```
 记得不用虚拟机要关闭
 
+如果想要移除虚拟机，可以使用如下命令：
+```bash
+>$ vagrant box remove ubuntu/trusty64     # 移除 virtualbox 中的环境
+>$ rm -rf .vagrant  # 移除 vagrant 目录下的隐藏目录，只有这样才能在该目录下继续启动和登陆新的虚拟机
+```
+
+更多的有关 vagrant 的使用方法可查看 [官方文档](https://developer.hashicorp.com/vagrant/docs)
+
 <br>
 
 ## Share
