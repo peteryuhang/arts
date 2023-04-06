@@ -5,7 +5,24 @@ Review：At least review one technical article each week<br>
 Tip：At least study one technical skill each week<br>
 Share：At least write one thoughtful article each week<br>
 
+
+## 2021 年往后的记录和分享（以内容为区分）
+
+### [Reviews](./reviews/README.md)
+
 <br>
+
+### [Tips](./tips/README.md)
+
+<br>
+
+### [Shares](./shares/README.md)
+
+<br>
+
+--------------------------------------
+
+## 2021 年以前的记录和分享（以周为区分）
 
 ### [Week 86](./weeks/week086/Arts-086.md)
 
