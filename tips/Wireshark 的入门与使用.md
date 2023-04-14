@@ -1,5 +1,4 @@
-## swap 空间在 Linux 下的快速构建方法
-### Wireshark 的入门与使用
+## Wireshark 的入门与使用
 
 - Wireshark 是一个网络抓包工具，能够帮助分析网络请求中的各种包。也是学习计算机网络不可多得的好工具
 - [Wireshark Introduction](Wireshark_Intro_v8.0.pdf) 里面介绍了 Wireshark 的基本的使用方法，包括
