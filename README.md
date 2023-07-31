@@ -6,6 +6,8 @@ Tip：At least study one technical skill each week<br>
 Share：At least write one thoughtful article each week<br>
 
 
+# 此 Repo 目前已不打算更新，新文章将会发表在 [个人博客](https://peteryuhang.github.io/) 上
+
 ## 2021 年往后的记录和分享（以内容为区分）
 
 ### [Reviews](./reviews/README.md)
